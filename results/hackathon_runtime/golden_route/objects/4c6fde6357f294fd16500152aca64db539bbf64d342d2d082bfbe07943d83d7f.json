@@ -1,0 +1,23 @@
+{
+  "object_id": "fco:4c6fde6357f294fd16500152aca64db539bbf64d342d2d082bfbe07943d83d7f",
+  "object_type": "SponsorAPIUsageFCO",
+  "payload": {
+    "admission_state": "API_USAGE_PASS",
+    "api_call_count": 2,
+    "claim_boundary": "API/model usage identity and observed execution only; does not by itself establish prize quality or scientific correctness.",
+    "execution_status": "PASS",
+    "judge_lane": "TINYBIRD_RAWTREE_SHARED",
+    "provider": "RAWTREE",
+    "receipt_sha256": "ed10f3ceef541e8863dde108f29c1cd6086a9b08c39b603a115c18cdd8dbf36d",
+    "secret_values_persisted": false,
+    "stage": "GOLDEN_ROUTE_TINYBIRD_RAWTREE_USED",
+    "usage_metrics": {
+      "insert_http_status": 200,
+      "query_http_status": 200,
+      "readback_match": true
+    }
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

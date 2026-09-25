@@ -1,0 +1,54 @@
+{
+  "final_mmr_root": "4df6c9e82f4b6ebe7116eb36be11e151d32bf685b757a55413b3ee727f6fbe3c",
+  "lanes": {
+    "BLACK_FOREST_LABS_ACTION": {
+      "status": "NOT_TESTED"
+    },
+    "BLACK_FOREST_LABS_IMAGE": {
+      "api_generation": "PASS",
+      "breakpoints": [
+        "GR8_BFL_API_PASS",
+        "GR9_BFL_IMAGE_QUALITY_PASS"
+      ],
+      "finetune": "NOT_USED",
+      "finetune_count": 0,
+      "first_media_quality": "NOT_ADMITTED_GARBLED_TEXT",
+      "successor_media_quality": "PASS_RECORDING_QUALITY"
+    },
+    "BLACK_FOREST_LABS_VIDEO": {
+      "status": "NOT_TESTED"
+    },
+    "LIQUID_AI": {
+      "breakpoints": [
+        "GR1_LIQUID",
+        "GR3_LIQUID_MODEL"
+      ],
+      "model_identity": "PASS",
+      "model_used_on_exact_bp4": "PASS",
+      "output_tokens": 989,
+      "prompt_tokens": 2711
+    },
+    "NIMBLE": {
+      "breakpoints": [
+        "GR6_NIMBLE_FAIL",
+        "GR7_NIMBLE_PASS"
+      ],
+      "first_attempt": "FAIL_STRICT_NO_SOURCE_URLS",
+      "successor": "PASS_3_RESULTS_3_SOURCE_URLS"
+    },
+    "TINYBIRD_RAWTREE_SHARED": {
+      "backend_observed": "RAWTREE",
+      "breakpoints": [
+        "GR4_RAWTREE_FAIL",
+        "GR5_RAWTREE_PASS"
+      ],
+      "direct_tinybird_token": "ABSENT_NOT_REQUIRED_UNTIL_OTHERWISE_NOTED",
+      "first_attempt": "FAIL_HTTP_400",
+      "successor": "PASS_INSERT_QUERY_READBACK"
+    }
+  },
+  "manifest_sha256": "838c9fc2b4a3a6efe30ff39ed0c94c7cd16052434b56b3b3e1c76cf324bf5fdd",
+  "principle": "credential presence != provider use; API success != scientific truth; failed attempts remain in audit lineage",
+  "receipt_sha256": "f94e23ecc27ad84c3b4b870f67cc073e75de619117d37907008b3d131b517bae",
+  "schema": "longhorizon.sponsor_api_usage_audit.v2"
+}

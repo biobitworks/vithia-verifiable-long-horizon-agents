@@ -1,0 +1,241 @@
+{
+  "breakpoint_ids": [
+    "fco:f0d4e91eee25a30e51943054bf43170c159470dd9ead4e0c8cafea25b7a0a74a",
+    "fco:fd44d62d324674bf5a29ed93863f5aa04271f5bc4ed48b2cb5a6dbadd3f3c94e",
+    "fco:1102e380e367771bf234d98197dd89447c4f18fa701d65469f85b5ee14314131",
+    "fco:a08021f0f8823901aafdb98324ef5629798c8be4c40398c68241a3501ee8acf9",
+    "fco:3809c79cb3f5a109641f0a87b9d4e50d3ef1f5fee6375c688ff63f00f52a234e",
+    "fco:42fb6d6683fa084415a568888c9a255a13cd7942de5360c14fc9b6c8ffddf6b2",
+    "fco:6f3f315942d09c05f5f08d900b6ada14f8ebae58a57f18f1b471d565cb79f40d",
+    "fco:f5bb5c0954917b90abc44a539cd465787e6ca46986f5c9df9980feffad143085",
+    "fco:319e65400eb50d2dcc745aafb3fed5fdb454f654c0ee38dd1c334e3b0d0faaa5",
+    "fco:59884feb4f2a443c5a7d9c6abb4bed4550b326ace680d629bbb54b572ba7dbff",
+    "fco:d2c957c2753a0fc6ee62ca6503a32fed9be79c616651627c5d5c31caee76a7f6",
+    "fco:e715fc0a1b50278a11c643baeaf411303f7cb0d751e2d3ea54e2dbc3c752c6ce",
+    "fco:c3bc667e7713957bd21793e41a86fdd42d7c210e8b20d8464da56a136fc638d1",
+    "fco:ff58c25a8cb416241fc468520f4c9a3514bc8fcab0e7fab30f9147a80a696093"
+  ],
+  "checks": [
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "5161a42c0f4c5705d76d51a7bb2b5257a158f55da66045697f1821db4b529201",
+      "recomputed_merkle_root_sha256": "52ae3c551038c4ce0b9582ae0c52a94021e2afd0280fe6537ec119db8a169c75",
+      "stage": "GOLDEN_ROUTE_CORE_RECORDING_FREEZE"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "dd5f1d8fc91fd6547ddc7875e2c56fb2fd56b8c101e8f5e1120beeed255fe6b6",
+      "recomputed_merkle_root_sha256": "260e72dc72164191939055a241d6275ed4aff63dd3d90a243cf8128c16b79e52",
+      "stage": "GOLDEN_ROUTE_LIQUID_USED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "6cbef723baffdb7a9d2673b45af1610a8df6e9074832a0ef3cc7a289b8cdc716",
+      "recomputed_merkle_root_sha256": "2ec96e7e04cc07646c54200c57621da762aac735867c6700b625495c359945d4",
+      "stage": "GOLDEN_ROUTE_SPONSOR_USAGE_AUDIT"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "c4657a1c565eb9caf0d55a952ee1c0c51e21fecad8c97aad4488d03b921851f8",
+      "recomputed_merkle_root_sha256": "b6eaf9b0c09b3655312f3c2589543c81950fb09d43a38d5b8a545f8de557ae9e",
+      "stage": "GOLDEN_ROUTE_LIQUID_MODEL_PRESENT"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "5c8ddfb11e563f0ea0e04d6b62ee08bb01fd952237b5ec3943128d2fec3e1f5d",
+      "recomputed_merkle_root_sha256": "9d8d40cd751f54017b7acbee8c6b31e5916cd553ebac4a514dc5614dd7cab85c",
+      "stage": "GOLDEN_ROUTE_TINYBIRD_RAWTREE_API_ATTEMPT_FAILED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "34ee44e93b81bb183c0840afa4eabb77a0b0f9e4aa9e9828eb246e8762d7f7a6",
+      "recomputed_merkle_root_sha256": "78f4847ef86a1e04cde392b6b43f6394a0570d79057856bcf269faa96520963c",
+      "stage": "GOLDEN_ROUTE_TINYBIRD_RAWTREE_USED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "cecad9fd176eba195532062c6c62599fc1fee03e3dbd1182f18907eadd6133e4",
+      "recomputed_merkle_root_sha256": "50cb393bf4c27fea39b4ea2927798a22bca840194025ef1a056bf7c88b1ecea9",
+      "stage": "GOLDEN_ROUTE_NIMBLE_API_ATTEMPT_FAILED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "10a746efebcf9423551a58420e83b2f3aae8a09f4c3e8a0ef0b9a3e10c33a312",
+      "recomputed_merkle_root_sha256": "824393283649d9c25a092a07a7d3b1984abcc441f8b1cedb5068dcea34dc844c",
+      "stage": "GOLDEN_ROUTE_NIMBLE_USED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "3b5cd84d16055a8cacfb6444bdf3346ed1dede567abd51616dee338e9218920e",
+      "recomputed_merkle_root_sha256": "3460d8f50e97133a6cf7ae6c1736d966f097316a680908c7aea1c2838a95f6c0",
+      "stage": "GOLDEN_ROUTE_BFL_IMAGE_API_USED"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "4df6c9e82f4b6ebe7116eb36be11e151d32bf685b757a55413b3ee727f6fbe3c",
+      "recomputed_merkle_root_sha256": "9c34f2a739c78b4c9092357e9bc573b0fa26de55280af49875fcb4d0ec4a7350",
+      "stage": "GOLDEN_ROUTE_BFL_IMAGE_RECORDING_QUALITY_PASS"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "235341ee449e0b269c7935374ad13b4e73d82c932441ae3787e73d612555e4a4",
+      "recomputed_merkle_root_sha256": "aae7bfb9d6f290c575c691dff02595794205f5f2f7d1b28e9235d48ba795622f",
+      "stage": "GOLDEN_ROUTE_LIQUID_26B_DOWNLOAD_IDENTITY"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "1877ba7c341ffdb52f4a3af32782f171fed0e5ac543d0414046913c93cf7654e",
+      "recomputed_merkle_root_sha256": "0451907fe980749db4d41d7c845cd165eaaabaf274bb9e710fe9fee7566ebc18",
+      "stage": "GOLDEN_ROUTE_BFL_FINETUNE_BLOCKED_NO_CHECKPOINT"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "f9b7efcc5c1ce9174742ea74b0394de3a2bcabd51695f9ed8602598df89c7f82",
+      "recomputed_merkle_root_sha256": "54cd97eed80629b2fc3f23ffebc8061b18a70c00856bb913c0ede1a518f1dc0d",
+      "stage": "GOLDEN_ROUTE_BFL_VIDEO_AUDIO_ROUNDTRIP_PASS"
+    },
+    {
+      "checks": {
+        "breakpoint_fco_hash": true,
+        "merkle_leaf_hashes": true,
+        "merkle_root": true,
+        "state_object_count": true,
+        "state_object_ids": true
+      },
+      "passed": true,
+      "recomputed_cumulative_mmr_root_sha256": "47292dd4a67dcd23e759059856da2f22f341c6b2178d0e211a42777bc7949087",
+      "recomputed_merkle_root_sha256": "27b2339d8c5bc0527dabc6282782dee59d7939b795d37df46c6b84f25901cc92",
+      "stage": "GOLDEN_ROUTE_BFL_DASHBOARD_PROMPT_API_REPLAY_PASS"
+    }
+  ],
+  "claim_boundary": "Merkle/MMR establish declared-byte identity/inclusion only; sponsor success is determined by bounded evaluation/receipt objects.",
+  "independent_recompute_pass": true,
+  "manifest_sha256": "3b74ab29427d2c44cfc2176de7e788421881e0257a290ee81821e0f1194f1f1c",
+  "merkle_roots": [
+    "52ae3c551038c4ce0b9582ae0c52a94021e2afd0280fe6537ec119db8a169c75",
+    "260e72dc72164191939055a241d6275ed4aff63dd3d90a243cf8128c16b79e52",
+    "2ec96e7e04cc07646c54200c57621da762aac735867c6700b625495c359945d4",
+    "b6eaf9b0c09b3655312f3c2589543c81950fb09d43a38d5b8a545f8de557ae9e",
+    "9d8d40cd751f54017b7acbee8c6b31e5916cd553ebac4a514dc5614dd7cab85c",
+    "78f4847ef86a1e04cde392b6b43f6394a0570d79057856bcf269faa96520963c",
+    "50cb393bf4c27fea39b4ea2927798a22bca840194025ef1a056bf7c88b1ecea9",
+    "824393283649d9c25a092a07a7d3b1984abcc441f8b1cedb5068dcea34dc844c",
+    "3460d8f50e97133a6cf7ae6c1736d966f097316a680908c7aea1c2838a95f6c0",
+    "9c34f2a739c78b4c9092357e9bc573b0fa26de55280af49875fcb4d0ec4a7350",
+    "aae7bfb9d6f290c575c691dff02595794205f5f2f7d1b28e9235d48ba795622f",
+    "0451907fe980749db4d41d7c845cd165eaaabaf274bb9e710fe9fee7566ebc18",
+    "54cd97eed80629b2fc3f23ffebc8061b18a70c00856bb913c0ede1a518f1dc0d",
+    "27b2339d8c5bc0527dabc6282782dee59d7939b795d37df46c6b84f25901cc92"
+  ],
+  "mmr_root": "47292dd4a67dcd23e759059856da2f22f341c6b2178d0e211a42777bc7949087",
+  "predecessor_git_head": "cc1998c07037dd51e86bb820f6295fba80d7cffe",
+  "predecessor_manifest_sha256": "e4db95ad8e6a79d8a721f197b8b70dbbcbb9b9d61f68efaccf14c4e3997ff3e1",
+  "route": [
+    "GOLDEN_ROUTE_CORE_RECORDING_FREEZE",
+    "GOLDEN_ROUTE_LIQUID_USED",
+    "GOLDEN_ROUTE_SPONSOR_USAGE_AUDIT",
+    "GOLDEN_ROUTE_LIQUID_MODEL_PRESENT",
+    "GOLDEN_ROUTE_TINYBIRD_RAWTREE_API_ATTEMPT_FAILED",
+    "GOLDEN_ROUTE_TINYBIRD_RAWTREE_USED",
+    "GOLDEN_ROUTE_NIMBLE_API_ATTEMPT_FAILED",
+    "GOLDEN_ROUTE_NIMBLE_USED",
+    "GOLDEN_ROUTE_BFL_IMAGE_API_USED",
+    "GOLDEN_ROUTE_BFL_IMAGE_RECORDING_QUALITY_PASS",
+    "GOLDEN_ROUTE_LIQUID_26B_DOWNLOAD_IDENTITY",
+    "GOLDEN_ROUTE_BFL_FINETUNE_BLOCKED_NO_CHECKPOINT",
+    "GOLDEN_ROUTE_BFL_VIDEO_AUDIO_ROUNDTRIP_PASS",
+    "GOLDEN_ROUTE_BFL_DASHBOARD_PROMPT_API_REPLAY_PASS"
+  ],
+  "schema": "vithia.golden_route_manifest.v1"
+}

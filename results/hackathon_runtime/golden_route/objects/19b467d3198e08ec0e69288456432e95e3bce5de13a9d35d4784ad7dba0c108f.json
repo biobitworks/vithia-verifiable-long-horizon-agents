@@ -1,0 +1,18 @@
+{
+  "object_id": "fco:19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f",
+  "object_type": "SpeechToTextObservationFCO",
+  "payload": {
+    "device_observed": "mps:0",
+    "model": "openai/whisper-tiny.en",
+    "normalization": "strip_outer_whitespace_only",
+    "normalized_transcript": "Only selected evidence crosses into bounded context.",
+    "provider": "local_transformers",
+    "raw_transcript": " Only selected evidence crosses into bounded context.",
+    "status": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:52fec964494acd013274af3f049ed3cd071a3d0b627dd02a72c4b2d3b016a156"
+  ]
+}

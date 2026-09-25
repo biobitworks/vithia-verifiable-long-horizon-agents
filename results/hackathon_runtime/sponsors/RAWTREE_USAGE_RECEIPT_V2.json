@@ -1,0 +1,22 @@
+{
+  "api_call_count": 2,
+  "insert_elapsed_seconds": 1.552,
+  "insert_http_status": 200,
+  "insert_response_bytes": 14,
+  "insert_response_sha256": "ae7517535c6685126c6e8c45afb5d595769e8cf81484eb8c3ee7d1831bc73364",
+  "judge_lane": "TINYBIRD_RAWTREE_SHARED",
+  "predecessor_receipt_sha256": "a9a3df56b91e896228bbea38e7ca1edf6afca5559afc60bdf7209c33db9d3cd7",
+  "provider": "RAWTREE",
+  "query_elapsed_seconds": 0.134,
+  "query_http_status": 200,
+  "query_response_bytes": 610,
+  "query_response_sha256": "3a13af714d94d9b4e746cb22ed34064582281f2947ca00c390378948bf442833",
+  "raw_response_persisted": false,
+  "readback_match": true,
+  "receipt_sha256": "ed10f3ceef541e8863dde108f29c1cd6086a9b08c39b603a115c18cdd8dbf36d",
+  "run_id": "lh-rawtree-v2-20260925T191335Z",
+  "sanitized_error": null,
+  "schema": "longhorizon.sponsor_usage_receipt.v2",
+  "secrets_persisted": false,
+  "status": "PASS"
+}

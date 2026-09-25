@@ -1,0 +1,27 @@
+{
+  "object_id": "fco:e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc",
+  "object_type": "ProviderInvocationFCO",
+  "payload": {
+    "aspect_ratio": "16:9",
+    "cost_credits": 30.0,
+    "direct_api_executed": true,
+    "draft": true,
+    "duration_requested_seconds": 5,
+    "endpoint": "POST /v1/flux-3-video",
+    "generate_audio": true,
+    "mode": "t2v",
+    "prompt_chars": 4270,
+    "prompt_sha256": "e6f34873a13c31f6dd746bd53796f91a1b923eddb8a5a984269850b8cc23ac40",
+    "provider": "Black Forest Labs",
+    "request_id": "2b4ebbd9-0c33-4445-aadc-37300a9c9d7e",
+    "resolution": "hd",
+    "service": "FLUX 3 Video",
+    "status": "Ready"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:c805e1384a4dcdda947b5a1280cfb193065a13f143e7e9886bd8ffb8b98bb790",
+    "fco:bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27"
+  ]
+}

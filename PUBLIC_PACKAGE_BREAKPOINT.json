@@ -1,0 +1,527 @@
+{
+  "bound_golden_route_final_breakpoint_id": "fco:ff58c25a8cb416241fc468520f4c9a3514bc8fcab0e7fab30f9147a80a696093",
+  "bound_golden_route_mmr_root": "47292dd4a67dcd23e759059856da2f22f341c6b2178d0e211a42777bc7949087",
+  "breakpoint_sha256": "732726f479631938c7f41e5a5c328d6fdbab0d52072f08479fe61b306086c921",
+  "claim_boundary": "Public-file Merkle root establishes exact released-file identity/inclusion for the declared file set only.",
+  "excluded_paths": [
+    "PUBLIC_PACKAGE_BREAKPOINT.json",
+    "RELEASE_RECEIPT.json",
+    ".git/**"
+  ],
+  "file_count": 84,
+  "files": [
+    {
+      "bytes": 43,
+      "path": ".gitignore",
+      "sha256": "afab67e81b60fa9a6c902107446c98c5e130bd9e3ad785b25557ffe3f92ac207"
+    },
+    {
+      "bytes": 859,
+      "path": "LICENSES.md",
+      "sha256": "d31a5cf273b17d91fdaa3b7712f8dc923597b8b4c24ef9e0d772d7ad039c84a4"
+    },
+    {
+      "bytes": 1422,
+      "path": "PUBLICATION_STATUS.json",
+      "sha256": "9f6dded8c561632b429f8b499bd073f60e4b4989ddb3d2caa473d34503aafd02"
+    },
+    {
+      "bytes": 3255,
+      "path": "README.md",
+      "sha256": "190ab300662545f45f1d534229f761afb2c6233085417f0ec1dd2f360ba4efe3"
+    },
+    {
+      "bytes": 1961,
+      "path": "docs/BREAKPOINT_PROTOCOL.md",
+      "sha256": "97f7837a07871b933d1f185d606f78909f1b25196302fc5027e7195e169dccd1"
+    },
+    {
+      "bytes": 748,
+      "path": "results/hackathon_runtime/golden_route/GITHUB_PUSH_ATTEMPT.json",
+      "sha256": "d73ca4f684d3240006fbe8629a733d20bff22b96794de17e7a8a97c3c3e65373"
+    },
+    {
+      "bytes": 5791,
+      "path": "results/hackathon_runtime/golden_route/GOLDEN_ROUTE_MANIFEST.json",
+      "sha256": "c69fe2ddd85516738adcf8e5c0069e73d928b3a491759b4bd6e1a53d64e60a0c"
+    },
+    {
+      "bytes": 6294,
+      "path": "results/hackathon_runtime/golden_route/GOLDEN_ROUTE_MANIFEST_V2.json",
+      "sha256": "53a95e1efd97c20c368de45b7d66a3a8138d544070afa34a9702b5af6578a4c1"
+    },
+    {
+      "bytes": 10519,
+      "path": "results/hackathon_runtime/golden_route/GOLDEN_ROUTE_MANIFEST_V3.json",
+      "sha256": "61870d64a9e4407a695957c65b6fd3a7d5a2d7759c7ca833ffcc009ff99553ea"
+    },
+    {
+      "bytes": 1528,
+      "path": "results/hackathon_runtime/golden_route/SPONSOR_API_USAGE_AUDIT.json",
+      "sha256": "cdbcc197a8a1cf474a1cf3de59f47061ed0eb72db454575975dcff311cadf844"
+    },
+    {
+      "bytes": 1723,
+      "path": "results/hackathon_runtime/golden_route/SPONSOR_API_USAGE_AUDIT_V2.json",
+      "sha256": "e90b8dcf9c5b464adb8160b3507ac7d37d496ccdf0941c7611b559c0937b7755"
+    },
+    {
+      "bytes": 1446,
+      "path": "results/hackathon_runtime/golden_route/SPONSOR_API_USAGE_AUDIT_V3.json",
+      "sha256": "a348627374c2efbc1fc91b30b5a2fda696b6bf1d5f5d1a2d394f7ca20f712a0d"
+    },
+    {
+      "bytes": 1264,
+      "path": "results/hackathon_runtime/golden_route/SPONSOR_API_USAGE_AUDIT_V4.json",
+      "sha256": "1c60544a0ed7431918534f3f608b2690d2f1539cbacb54d9dce89b011184b29d"
+    },
+    {
+      "bytes": 2071,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR0_CORE.json",
+      "sha256": "ff9abd9c69cd5bffecf12d9fb53c2356cc0a23f9bae2febfad30844babf86741"
+    },
+    {
+      "bytes": 5518,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR10_LIQUID_26B_DOWNLOAD.json",
+      "sha256": "455ed96d1d9b73b049682fb82a82e4a44e6179444274ba4c7103c90ccedeb63b"
+    },
+    {
+      "bytes": 5684,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR11_BFL_FINETUNE_BLOCKED.json",
+      "sha256": "31703cf4787b67da6bb602e8df48404cc8330f4fdc60d1d7bbeeda4fa405e505"
+    },
+    {
+      "bytes": 7392,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR12_BFL_VIDEO_AUDIO_ROUNDTRIP.json",
+      "sha256": "e82011288a483f3e462ae0afbd1edc7e9bcdecefbf81366579db34661de7ab22"
+    },
+    {
+      "bytes": 9036,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR13_BFL_DASHBOARD_PROMPT_API_REPLAY.json",
+      "sha256": "a5a87ca79d578f1868ddbce37501d4c38f44ecf71844bb7afa07d2ee01988e34"
+    },
+    {
+      "bytes": 2677,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR1_LIQUID.json",
+      "sha256": "e3a2517301e06a4a4d26f7da4898397b7b1bfd07b59cbec32c11909c2ec08b5f"
+    },
+    {
+      "bytes": 2993,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR2_USAGE_AUDIT.json",
+      "sha256": "e21c703b81e5b7a247895f2b5f73982391f858863a79c3183338179ff6ff10ca"
+    },
+    {
+      "bytes": 3487,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR3_LIQUID_MODEL.json",
+      "sha256": "7a8484414bfcc8f3f0510250de473560e747deb5c3f6f3a5c09ff09a91101f15"
+    },
+    {
+      "bytes": 3810,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR4_RAWTREE_FAIL.json",
+      "sha256": "ed2279c2f91a17300c55b43c9f551090e7304d6d1974701c1094640b2977ae9b"
+    },
+    {
+      "bytes": 4030,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR5_RAWTREE_PASS.json",
+      "sha256": "c0408447d2a2aa0fc30e3bc36316b5336822c335171343e6266de3c63539bec1"
+    },
+    {
+      "bytes": 4342,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR6_NIMBLE_FAIL.json",
+      "sha256": "9e4800a87dba3fe40a6031d1a27285a925448ee2021123d49ff15efbdc17ce9e"
+    },
+    {
+      "bytes": 4414,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR7_NIMBLE_PASS.json",
+      "sha256": "67f8ce6200bdb4eb56d4c7ae0294e9b0d11327d43cafaa5a938efd5e98960be9"
+    },
+    {
+      "bytes": 4730,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR8_BFL_API_PASS.json",
+      "sha256": "a434ad4e37db010abc3b4534e3caab664f82ec05951e94aece2e5f2264bdc8a2"
+    },
+    {
+      "bytes": 5213,
+      "path": "results/hackathon_runtime/golden_route/breakpoints/GR9_BFL_IMAGE_QUALITY_PASS.json",
+      "sha256": "54b4b820e5e63d593d3b25bf04f1e2bbdd7fd0a7f10251a06431814c370bc20a"
+    },
+    {
+      "bytes": 935,
+      "path": "results/hackathon_runtime/golden_route/objects/04ef08daa91ef932806005424764098945c238facd36eba268be4b5dcd185a38.json",
+      "sha256": "29c9d0d5c216e9e862152340047a65995b80c459632ad91e4fcaa61feae28cce"
+    },
+    {
+      "bytes": 791,
+      "path": "results/hackathon_runtime/golden_route/objects/1470fc416a3babd3148b09b69c84f3b5f89ede67a135b572c39a160cdd4f15e4.json",
+      "sha256": "3ff2262371b6f8efd9cde7a9edb0a371d7d261809424b717ef5741a7e9df2585"
+    },
+    {
+      "bytes": 511,
+      "path": "results/hackathon_runtime/golden_route/objects/1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8.json",
+      "sha256": "0b8cc8d9dbc9fd50402223f0d8711945e375d48bfe0c60c8f1c35783a76af4e9"
+    },
+    {
+      "bytes": 994,
+      "path": "results/hackathon_runtime/golden_route/objects/19619d3cfb09fd2e524f08f9ba524b85b48304eb1f49978018c0898813f3d73e.json",
+      "sha256": "71c6205854c39a7cc4c24fba66bb5a09c205a3db92cab5fc324cbedaacc200d5"
+    },
+    {
+      "bytes": 655,
+      "path": "results/hackathon_runtime/golden_route/objects/19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f.json",
+      "sha256": "7990869cf149ddc463916ede58616cee7afb58fa18bbf9494483a759555ab5fe"
+    },
+    {
+      "bytes": 646,
+      "path": "results/hackathon_runtime/golden_route/objects/22bce57a982d992b138dd5e76a5f3002e257bcf9105b69feb7c77cd4f469a1aa.json",
+      "sha256": "2292a284ac5922e5e613a9dbe0e0dcfcc079d25ad818437d375b99a4937509c5"
+    },
+    {
+      "bytes": 1563,
+      "path": "results/hackathon_runtime/golden_route/objects/22ddb8e498b406819484ae7cf16b06f70d9657776017f971ba238e19135d5d76.json",
+      "sha256": "debc8933b7489d0344a9e0487d93ad26bbd773665ad58fd2cc96cc19cd93f924"
+    },
+    {
+      "bytes": 744,
+      "path": "results/hackathon_runtime/golden_route/objects/29d35320eac4a694025527a1c321a7b7acaf7f91b84bc506cf8e1b8de37dfa74.json",
+      "sha256": "917b4c8c98b18cd65a5ff0759934386536ff8c33f2046dbdf5069b4d8332116d"
+    },
+    {
+      "bytes": 762,
+      "path": "results/hackathon_runtime/golden_route/objects/29ee434018b24faaae28abcfa810e2f37aa831b8c409d7e7e5e206e589271d95.json",
+      "sha256": "1d96c4f46c5596932a90cd2c0f76327573421867736b011be98e362610433cc0"
+    },
+    {
+      "bytes": 952,
+      "path": "results/hackathon_runtime/golden_route/objects/4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9.json",
+      "sha256": "160a69aea1e687562d239a29d81d2a5e7142f19669c343b5523151948d05eb29"
+    },
+    {
+      "bytes": 1072,
+      "path": "results/hackathon_runtime/golden_route/objects/4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673.json",
+      "sha256": "ee7c783ca4e237dfa10dfc394fe708cb689577710427473c39ae77a55516c67b"
+    },
+    {
+      "bytes": 844,
+      "path": "results/hackathon_runtime/golden_route/objects/4c6fde6357f294fd16500152aca64db539bbf64d342d2d082bfbe07943d83d7f.json",
+      "sha256": "ed89f17fbe535c95524b0f2ad93e7d39c8dfb66249e89ed581c69f7fa2b258ee"
+    },
+    {
+      "bytes": 975,
+      "path": "results/hackathon_runtime/golden_route/objects/52fec964494acd013274af3f049ed3cd071a3d0b627dd02a72c4b2d3b016a156.json",
+      "sha256": "77cd0c9ac637173ef6e3c300be7241f80389b0177bb0c61a25b4d3cb2e374806"
+    },
+    {
+      "bytes": 607,
+      "path": "results/hackathon_runtime/golden_route/objects/56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5.json",
+      "sha256": "46861959beab239fb8af4c76b0101b649d95c33b367ab94dda96e5c6006849e7"
+    },
+    {
+      "bytes": 979,
+      "path": "results/hackathon_runtime/golden_route/objects/582144e3c61d3ae13b58877d0df54a68d68ebb2183a282b27d038f2c19fbfb1d.json",
+      "sha256": "347f0806a01e0a31ecb12ad9e201a3db5a204db2d3f35ffa6cd1d53b65a85582"
+    },
+    {
+      "bytes": 719,
+      "path": "results/hackathon_runtime/golden_route/objects/5970009246b284bbb3a79f22b1a9eb645672e7486bbc8255d9cca2aa4893624a.json",
+      "sha256": "f059415b40b79c33d3f2063b90dd9550b58ee53f9d4e88efd5bf233e6d8fd325"
+    },
+    {
+      "bytes": 2125,
+      "path": "results/hackathon_runtime/golden_route/objects/5a7bd11417e807237a3b383ac25cf0f3e6711f2c4635064fb2d21b4f2027fe61.json",
+      "sha256": "4dbec1bcfc9bf0fc77c717654b46702a3999725144922341828ee75cf9167d7b"
+    },
+    {
+      "bytes": 781,
+      "path": "results/hackathon_runtime/golden_route/objects/6ba1dffcb4b9f64ba45fffd7f468bd3146cf23bb5716000e68311614731bcc19.json",
+      "sha256": "b3e234be42b798d5861ec629903115f3ba742c7cdc79740acb097225a8f0e059"
+    },
+    {
+      "bytes": 753,
+      "path": "results/hackathon_runtime/golden_route/objects/6f9a8686d37ad940b2fc2bde4c4d86b89b388af23ad83de2b4a7e009afaa2d17.json",
+      "sha256": "3155248fac5655a15d657b4b974eef2d9ef35a2683b711a861bd845f96905afc"
+    },
+    {
+      "bytes": 1184,
+      "path": "results/hackathon_runtime/golden_route/objects/8c0753fd2fc3b7e0109b73b04b9c2fee178801a894cc1f612c1321dc3ccef94b.json",
+      "sha256": "bd28deb4ab4a4b5053e15d08c00651a989208c5f052e2f5ca4f2b29131ff3f84"
+    },
+    {
+      "bytes": 1598,
+      "path": "results/hackathon_runtime/golden_route/objects/952079a3566ded5a471d8c6575c985b96fa6c6679acecf4edd6481f2902fccad.json",
+      "sha256": "9b5fecee0b147a11d64d0c85fed31212499a7f825f979cd8d519f56103b5374d"
+    },
+    {
+      "bytes": 891,
+      "path": "results/hackathon_runtime/golden_route/objects/aebdf933bc2fc2ad31c309eeaa74d317bc075374b70d5eb963c0b276513e639f.json",
+      "sha256": "e280d8cd6101540554d42b3c67f7908ba6592c2eb3933c2c2d37b19dc88a8131"
+    },
+    {
+      "bytes": 547,
+      "path": "results/hackathon_runtime/golden_route/objects/bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27.json",
+      "sha256": "02b7b03633a991a55f4ef02832900b0564a819655184d2465ce263ac7aac4a2b"
+    },
+    {
+      "bytes": 2328,
+      "path": "results/hackathon_runtime/golden_route/objects/c5cbf051cf2bc236677130448b6ff5032c6cbfe11490cdcb44cc5dfb73c6890d.json",
+      "sha256": "a43aae29c9ea02e46d93b619620f38eb46bd5eb3b0d65649523ba9090d5716e2"
+    },
+    {
+      "bytes": 801,
+      "path": "results/hackathon_runtime/golden_route/objects/c805e1384a4dcdda947b5a1280cfb193065a13f143e7e9886bd8ffb8b98bb790.json",
+      "sha256": "151ab4cbd11359029a3e4fe8f462915667dc3548d3596fa366d409583c0c4534"
+    },
+    {
+      "bytes": 775,
+      "path": "results/hackathon_runtime/golden_route/objects/d67343428f5c99d0b147b96959ea9c3f5233b68ec0d383cfd8dc193fe7d44921.json",
+      "sha256": "7dcd5365ad7976072433c26303700737e875803ddef78762ac619fb5a3e5b052"
+    },
+    {
+      "bytes": 898,
+      "path": "results/hackathon_runtime/golden_route/objects/e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc.json",
+      "sha256": "f330d7fc0cd20dc7639822888457dac10c212638fc5343f24458c99eaf034b7e"
+    },
+    {
+      "bytes": 858,
+      "path": "results/hackathon_runtime/golden_route/objects/eed264444f7b024ddb6d6575934d4785a8ea8f795e848d1f1752b66870f87414.json",
+      "sha256": "ece24d0ce6d03026b6ccd5a05b48f20ca5ae3929a5377d269c8338b7593b1799"
+    },
+    {
+      "bytes": 1502,
+      "path": "results/hackathon_runtime/sponsors/BFL_DASHBOARD_PROMPT_API_REPLAY_RECEIPT.json",
+      "sha256": "9918f0db45165c999e162163447fa2466ee0bf47e11c5260a99a3e5521ad2122"
+    },
+    {
+      "bytes": 798,
+      "path": "results/hackathon_runtime/sponsors/BFL_FINETUNE_READINESS.json",
+      "sha256": "34f8fb3e5ec2a1e9bbccd09c621aff98089bb094f9c1debde8f6fa755096e224"
+    },
+    {
+      "bytes": 195461,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX2_KLEIN4B_OUTPUT_V2.png",
+      "sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c"
+    },
+    {
+      "bytes": 4303252,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX3_LONGHORIZON_DASHBOARD_PROMPT_API_REPLAY.mp4",
+      "sha256": "293bbd89da1741c331ad7eadc403033613aaf1f2248d76a3f5473c45874b5cec"
+    },
+    {
+      "bytes": 1236815,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX3_VIDEO_AUDIO_DRAFT.mp4",
+      "sha256": "2471daf72b8a16bae67ac631350368c28aa2701f7947f964805cd8ae0f097075"
+    },
+    {
+      "bytes": 160574,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX3_VIDEO_AUDIO_NORMALIZED.wav",
+      "sha256": "8d088fc364795372a4f816c8f953c71666d72c73785208b541697cd441671754"
+    },
+    {
+      "bytes": 1394,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX3_VIDEO_AUDIO_ROUNDTRIP.json",
+      "sha256": "340943f5e576a974549f2b5d98220608e220b2a53d71bee53e08d99eb8a40f58"
+    },
+    {
+      "bytes": 83217,
+      "path": "results/hackathon_runtime/sponsors/BFL_FLUX3_VIDEO_AUDIO_TRACK.m4a",
+      "sha256": "159e4219e42f0067e2c006e2aef64091c1f08656eb1ee40c11b197c45aa09e6a"
+    },
+    {
+      "bytes": 819,
+      "path": "results/hackathon_runtime/sponsors/BFL_IMAGE_QUALITY_EVAL_V2.json",
+      "sha256": "f272c330a9d281d84f2893f50801e66afbfd72f0994adfac4932595fe778d589"
+    },
+    {
+      "bytes": 1140,
+      "path": "results/hackathon_runtime/sponsors/BFL_USAGE_RECEIPT.json",
+      "sha256": "fcebffffce628f19986f41ac34db44e4724967044216a7d68250ef29db2e64c5"
+    },
+    {
+      "bytes": 1141,
+      "path": "results/hackathon_runtime/sponsors/BFL_USAGE_RECEIPT_V2.json",
+      "sha256": "4d875655573ecdc13667c277a7d839192389b0d747642a8935a327f2b87e1291"
+    },
+    {
+      "bytes": 978,
+      "path": "results/hackathon_runtime/sponsors/LIQUID_26B_DOWNLOAD_RECEIPT.json",
+      "sha256": "c32e4387d5c83f871bc863808dfc29aca1e9948ac98c11a051080c8c032e32d3"
+    },
+    {
+      "bytes": 1038,
+      "path": "results/hackathon_runtime/sponsors/LIQUID_EXACT_BP4_CALL.json",
+      "sha256": "87b43535352570462b7c59084bcd7a7c1554d5f62cb42cd397c3fb55e1b4e44d"
+    },
+    {
+      "bytes": 975,
+      "path": "results/hackathon_runtime/sponsors/LIQUID_MODEL_IDENTITY.json",
+      "sha256": "3039e48b2b786593a1b504ecb2c1f6314b433cb44009da0f6ef973d91357e25d"
+    },
+    {
+      "bytes": 937,
+      "path": "results/hackathon_runtime/sponsors/LIQUID_PUBLICATION_LINT.json",
+      "sha256": "10ca96a533c8d89b2388e2518d4de28650a0aa3562eb6b52e54ae13d9d64874e"
+    },
+    {
+      "bytes": 512,
+      "path": "results/hackathon_runtime/sponsors/NIMBLE_USAGE_RECEIPT.json",
+      "sha256": "00b9181114ac44c1d75abe47d3cae076f117cd4cf23696709683f7c674744b75"
+    },
+    {
+      "bytes": 709,
+      "path": "results/hackathon_runtime/sponsors/NIMBLE_USAGE_RECEIPT_V2.json",
+      "sha256": "cb8ac0eebce685ccbbb5916712dbefd593e8f1607f285aa2be0271885cf88be5"
+    },
+    {
+      "bytes": 764,
+      "path": "results/hackathon_runtime/sponsors/RAWTREE_USAGE_RECEIPT.json",
+      "sha256": "3f85f766a049fc08c9cae84c26bf20bfb16c737dd541da397aa7f8f65cc6b14f"
+    },
+    {
+      "bytes": 897,
+      "path": "results/hackathon_runtime/sponsors/RAWTREE_USAGE_RECEIPT_V2.json",
+      "sha256": "e5e54660f799d6c30de14bbf9dae62c6e8e1ffb2bb0d4ad5ca4ab03741e1d954"
+    },
+    {
+      "bytes": 5046,
+      "path": "scripts/verify_golden_route.py",
+      "sha256": "2b9bdc02490f1c8ac55e087c1824147019ecf0f27444bd7186851049d82690f1"
+    },
+    {
+      "bytes": 0,
+      "path": "vithia/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 191,
+      "path": "vithia/__pycache__/__init__.cpython-314.pyc",
+      "sha256": "4fc65583ec555bcc5c50a91744662a5af2863559971a9b782bed202f172f9819"
+    },
+    {
+      "bytes": 1541,
+      "path": "vithia/__pycache__/canonical.cpython-314.pyc",
+      "sha256": "8a963336a025420d3c2354b87e43a67308b78bb55665789037762e45440e4db6"
+    },
+    {
+      "bytes": 2225,
+      "path": "vithia/__pycache__/fco.cpython-314.pyc",
+      "sha256": "ab7670c7612e8619359c667689e48151c59593b72a28ee0ad36c3adf4e41e8d6"
+    },
+    {
+      "bytes": 10234,
+      "path": "vithia/__pycache__/integrity.cpython-314.pyc",
+      "sha256": "eeb0a4d81a1f22e8a6420f469c8e4aba8f27208a4210b0b3f5e0857e5dce96fe"
+    },
+    {
+      "bytes": 475,
+      "path": "vithia/canonical.py",
+      "sha256": "a2631db08ec06519a341fd45ad19245a09d068713e953dd888800acf8073e6a7"
+    },
+    {
+      "bytes": 991,
+      "path": "vithia/fco.py",
+      "sha256": "9239ad6b6a81305bbbe5960a953c020f09d05a4a4ebded251299323eac2f80d3"
+    },
+    {
+      "bytes": 5969,
+      "path": "vithia/integrity.py",
+      "sha256": "a0f511e9dcf1d9b600f493167861a32c72f82646671cd93b073e5cc0599182c3"
+    },
+    {
+      "bytes": 143626,
+      "path": "vithia-hackathon-live.png",
+      "sha256": "cc3c5f0485c88e701b1c3d84c72fb8d3040d98113f4593f2c755faeadb2bb8a2"
+    }
+  ],
+  "leaf_encoding": "canonical_json_utf8(path,bytes,sha256)",
+  "leaf_hashes": [
+    "eeeb56f6086ceaee07b989198e25be1338e60068a2954cdbd2bdc0443935ca57",
+    "43ae55e8a6ca770362071d80f72c26e26a8645c39c790f9aa3b8a446a1d711a2",
+    "d511cb08628da8a0851ad6b97f762c35e9d4292d87169f94bb7d3dc17d05d0e4",
+    "10c39a711b449f1aa99abea9f4174cc27e1ed637880ce558d5aef6c0ca2a1194",
+    "197e7165401ca7c08785930b2847cb7ffb50e6912f06eb79fbf07bdf51406010",
+    "a820082228f4e5246612866f8371817bc70856dde72de85fdd986fb5517adee7",
+    "bfba0145472e372b9e5ad8b2a0708abbe27e6362ebe28261ac1f342a791bafd1",
+    "62584c2f44d265d74b1723a5c01a594c5860e466b3c7cab296f4f791569da16e",
+    "b4908d58082db6f301b243a4890bc1dec8d2b7c081b124f12547bab9b831de83",
+    "4472cb8f522711ec3a806adf13ca24505eb6b90db74cfa7b1b6e3df116de5a1e",
+    "74d8e593558fdb47c9ce2a60fdc49f8bda740fd5ec2b241ba2f2a5b3787a2ac0",
+    "d83183098adf8fb17f095716fd522f844e50e194eece1f54b5f8e948c6fc3ea3",
+    "6d978de7b059269ab59c7a0eeacfdd92d3c20351a0e22e0eada77255b181a38a",
+    "65cc6db61f255c507c07de77e34df1863990aaa3cceb2c4dfb0ca28fc82978c5",
+    "bf71a657f786986db5d9f710b8ff29ef5829ebcc5a2fe91501fb9258f531e70c",
+    "79b9112d48f70ee70c7f8876e9683e5715ac79b414fc60befc7a24425b8204a6",
+    "a183efc87b52509abe63b5cb22b2665e787e076ca1ea2b792e2d4ecc899b8a4d",
+    "d8be9d757d4fd21e1f80a5a0708a1581d0d1e5c4b00c992397d415e382065e86",
+    "71e77b463e7f5361862be9f112d22faa038a85680c0a7c7a098f14308e17cc2c",
+    "7783c82f75949bd1ca68064e43aa4a8973a9eb4d2dc8c0794eed17ab42c0bcb3",
+    "7d82c39ef6548efc9dc71e571291f8a0a9ac92a27e351eaa75e4358820089548",
+    "3bed7d1dbc54ad9db2b2522c6b2d461f02e198ac1dc1235f0df07951d029ab5c",
+    "d59e0ed44aa8ba7b1e589f12a858ae4a48d84c63bd208f4ed24726a4eb27ea80",
+    "e085cd1695307cac243d21cc9e16c61cf48adf7c3b2e1555042f97e7ed2d0e5c",
+    "3615d477ee1d3eda2d82a88506751cd581c28b4dd35179b1b874532b8e23e2f7",
+    "77bd22f6c9e965d39c80de11bc621d909ba14b3d6392f163200d8502c192c9d7",
+    "9705e7818d3c8fa674ca474c319aa88775f112a91032c685421064cdd1349996",
+    "5c07582a254aed94271397cf61b001bf8bb4092fdae1c8ca1bd01bbd4cbbbba1",
+    "5b141f15ecc411d27ff67e8f7447affb87ebba196fa2fdccca621078ebf80ef8",
+    "ae6754bdfe34c497f83f30773c95d4836d52eff85165ee00b6d386645538d167",
+    "b5b952934e084e87d86230006e3020908c31087c8288e000a60eaa268434a503",
+    "e467559d105687f2cf0769e5c862596dec83374670759c0f93094b8cd7be63e6",
+    "e1132b84625eb56055e44d465639320523bddac0a2a4284b833041adc4738d46",
+    "cdfdab7d1c1ba87c0ae637d884265a4dfaec79019c07966889d2895404d2095c",
+    "fc5f31f224ad23b8a9664b54aeb2d8cc057b6346ae2ab3b7ac12d0b37a6175b4",
+    "2d789530f4a7e30b8471e0d4ea6fa53eff53cfb219d122ef274e086ec4633da6",
+    "42492a4d5454a3af7924f02d95509b0924a6067c0c97c8477948cf85402faa19",
+    "71ee4d149f6c0e183e12d0f41f6b1a223390ed8314cc9e1ccfbe74631a2cca11",
+    "237b769f2a4ebb4c823dfc495113d340f96f365961bcd91b9ca39fe3d38d70ab",
+    "9f89c7cb4fec17dc0304a2a45805551c93e312b6fff345ca6fb96685301fc019",
+    "69a9c056182ac792b759ea1b669ba8083e259d27b620c8ea8f7aed62fd83a0bc",
+    "a6e277d93c039baf20c2c39f61fc6c79c1403c1dc0a6f7abd873ed3ed5ff2e03",
+    "ca59040bce8e4f7cb07a05594f6568ef63f95952c851d1d2dd00dea7c4bcaeef",
+    "94fa20dba364d6c49de5930f65a31994dfeb6acf75c04aae3beb432ebe9f5a57",
+    "6f580f2a7509d456447f40dc820ae9571b4607fbb90efdde5de6ae8efe633227",
+    "fef4ea8363e54ad76ab0e7073f6c338805e27c86c24fceafd07d299754b30a98",
+    "0822c398161587d2fd58c1bfc9af97ec8fa8e9f766bcc2cbc728003f81326021",
+    "15336decb5843bb4fb05d28346110b48fe4069d29a7660d82885442080ea53eb",
+    "5050f6eeb535106391778131f7dc087254a19e04c907a4ef1730d221db110ae9",
+    "118ead8bc7e309165371c07e219e133d4e0fd5f95da843385cc1da56eba885ec",
+    "00a535898f26eab2364c698db475cb39e05c81fc77a54945a60cdf32efb906c4",
+    "cb51eaac5d446d748ad53fa4cd80adab5b3371cb2836bbddf5c2088f1b01ef8e",
+    "718fb7a8b4cc55aa0198ffb2ab741dca2789bb27ff32e19dc2f9b839fa39d74d",
+    "81dfdb8fd945880f32994f7f2563f63a9d2ba24446b0243b629beff4fd531800",
+    "9f5ede0dfc80c73bc6eff8498524748a823af5bc7d9ea472fdd7531d904bbfbb",
+    "dfd5e0fddec9471881f8fbaac47b01b8135b1786d19eaaf6016ef7b087236d92",
+    "2eee9227426c658937cb5d38f6304b5529adc94fcab6990cb3c73a7120831312",
+    "b1b0ee14e4e8d8b31eecaf181c58bb8a2343ee69ef368455e9d3796b3d88fa59",
+    "0d2f47184c7ae89ad9b4703b172998531b6e2b1c13eff77dd0718ae70cf7f58e",
+    "ea050b6b84e578c61de4d67192d32eb3238cd11000658c6ba3c49c83ad5a5054",
+    "f55ac31f0ab80cbde57702e173938464c6d9abb3e9cc451eca1c09bb22ec8e9f",
+    "653888607b172f22fc5ab56b534dbc0bd727a89ee4e0487dd9f9b24342ac1a91",
+    "eadb879fcf876b3d3a92f8ddb704e241d749552ccaa8e9bc5bfc921bfc1963c6",
+    "e65021c7c2f6ddd4a3494bfcee1a143f0eb1bff0d14e85bd12dc342bf6361c8c",
+    "961160ec3c4ac6a6edf9d8fb25f1f363d5588d0faccdc5146407735b50eaf7d4",
+    "1e8c64264fe5e048b32ada5c345d5c8619cc728888f2e71f4f5a34a11f66dbd6",
+    "261ba358abd0d29a5ef746b16c7d9cbd1cd71bea59409e2a76571025badaaadb",
+    "1fc92a1d4744cc529d614f6d3a8600d4e8182fb9f78d8632a0e01469884355d7",
+    "23e08e2c46fbbaedd074731745e641fe760db6e2cb890cd9af06be00e7dc25fa",
+    "f1d1dd22e45bb6eef25a0e6709ff4fdbc1c01d9f8d84147933ccc88820597d9c",
+    "f09e8530c54c6e3b76c6646e03f9b3ebc4d50219efe9f438af4c82a6285aa36e",
+    "66c3fbbdaa196b3583d29a1e626e1b8dceed6eca683c69e15d37d4a22977431e",
+    "12df02e6d68a63c220e0e34177791598d7054dce585d9daf065238869ded170b",
+    "6ef16870dbe27b289b4a6c9a69c1047db5f633de787505e8d3a04c5f9abf9224",
+    "405e9d66ccb1086069f1d31b5a071fbf8bfb10a305e38fd640043a752171cf33",
+    "ca7576307bde858476f011ffb313a24a92bbaae80ead7b35ce1991d0c055ed04",
+    "8a2db06956a28fd0d8bc2fa6dc13cf47bc233e1be405c57a288ba4c360e8b9ea",
+    "088ff2c7a25938d42c9dba72b98328350f993af411370d75b9bd1a23e062235e",
+    "14cf92e361ca71bffe77cce6ee714224335fe4304cab637dbaed5d8f0a9142ec",
+    "bb3e68d0affd5202fb947d7ef05ab5f15d74371edec02ddf27a3f8695f0ab631",
+    "98c0b69d0b45eb1b2b56d7b27f8d2855bf44edd5f3a50b3eaa1c61325aec4634",
+    "453e8a77799a36ebaf7b2a329c04db4b8671992477c22937c4284f4925c14ec1",
+    "bdd6f01a3cd4e3f04ed37d4b085c5e13e56913b2a54eede309397f5274274543",
+    "7a01af608aa154ae49a2aae5c3b5fffe09a1e124dfddcc6a95a200e17652b967"
+  ],
+  "leaf_ordering": "lexicographic_path",
+  "leaf_prefix": "LONGHORIZON_PUBLIC_FILE_LEAF_V1:",
+  "merkle_root_sha256": "2039ecc29a28855e4a2a25807fd4a63b546ecb241d48d0544cc33635638d0b1a",
+  "node_prefix": "LONGHORIZON_PUBLIC_FILE_NODE_V1:",
+  "root_kind": "MERKLE_PUBLIC_FILE_SET",
+  "schema": "longhorizon.public_package_breakpoint.v1"
+}

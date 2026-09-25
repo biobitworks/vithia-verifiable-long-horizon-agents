@@ -1,0 +1,26 @@
+{
+  "object_id": "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9",
+  "object_type": "MediaArtifactFCO",
+  "payload": {
+    "artifact_role": "BFL_FLUX3_VIDEO_AUDIO_DRAFT",
+    "audio_channels": 1,
+    "audio_codec": "aac",
+    "audio_present": true,
+    "audio_sample_rate_hz": 44100,
+    "audio_track_m4a_sha256": "159e4219e42f0067e2c006e2aef64091c1f08656eb1ee40c11b197c45aa09e6a",
+    "cross_machine_video_sha256_parity": true,
+    "duration_seconds": 5.041667,
+    "frame_rate": "24/1",
+    "height": 704,
+    "normalized_audio_wav_sha256": "8d088fc364795372a4f816c8f953c71666d72c73785208b541697cd441671754",
+    "video_bytes": 1236815,
+    "video_codec": "h264",
+    "video_sha256": "2471daf72b8a16bae67ac631350368c28aa2701f7947f964805cd8ae0f097075",
+    "width": 1280
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673"
+  ]
+}

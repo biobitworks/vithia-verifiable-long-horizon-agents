@@ -1,0 +1,22 @@
+{
+  "object_id": "fco:d67343428f5c99d0b147b96959ea9c3f5233b68ec0d383cfd8dc193fe7d44921",
+  "object_type": "SponsorAPIUsageFCO",
+  "payload": {
+    "admission_state": "API_USAGE_PASS",
+    "api_call_count": 1,
+    "claim_boundary": "API/model usage identity and observed execution only; does not by itself establish prize quality or scientific correctness.",
+    "execution_status": "PASS",
+    "judge_lane": "NIMBLE",
+    "provider": "NIMBLE",
+    "receipt_sha256": "2b63240c58fe52e191aa1d2d2b01b6c8314e93145bcd1508d52b7a5522d6e3e5",
+    "secret_values_persisted": false,
+    "stage": "GOLDEN_ROUTE_NIMBLE_USED",
+    "usage_metrics": {
+      "result_count": 3,
+      "source_url_count": 3
+    }
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

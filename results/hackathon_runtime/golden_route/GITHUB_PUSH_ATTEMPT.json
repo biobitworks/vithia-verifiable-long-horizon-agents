@@ -1,0 +1,21 @@
+{
+  "schema": "longhorizon.github_push_attempt.v1",
+  "branch": "magicstudio/longhorizon-sponsor-piecewise-20260925",
+  "local_commit": "3a8ed23c",
+  "remote": "https://github.com/biobitworks/vitaology.git",
+  "status": "FAIL",
+  "error_class": "GH001_HISTORICAL_LARGE_FILES",
+  "historical_blockers": [
+    {
+      "path": ".venv-test/lib/python3.12/site-packages/en_core_web_lg/en_core_web_lg-3.8.0/vocab/vectors",
+      "reported_size_mb": 392.44
+    },
+    {
+      "path": ".venv-test/lib/python3.12/site-packages/torch/lib/libtorch_cpu.dylib",
+      "reported_size_mb": 237.34
+    }
+  ],
+  "sponsor_checkpoint_commit_created": true,
+  "sponsor_checkpoint_content_failure": false,
+  "next_action": "PUSH_HISTORY_FREE_SANITIZED_EXPORT_BRANCH"
+}

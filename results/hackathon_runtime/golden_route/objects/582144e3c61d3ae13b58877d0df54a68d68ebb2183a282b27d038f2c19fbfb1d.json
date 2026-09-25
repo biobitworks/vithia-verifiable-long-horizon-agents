@@ -1,0 +1,26 @@
+{
+  "object_id": "fco:582144e3c61d3ae13b58877d0df54a68d68ebb2183a282b27d038f2c19fbfb1d",
+  "object_type": "EvaluationResultFCO",
+  "payload": {
+    "broken_lineage_references": 0,
+    "claim_boundary": "Judge-facing recording quality only; not a statistical or universal aesthetic superiority claim.",
+    "dimensions": {
+      "demo_usefulness": "PASS",
+      "distinctiveness_vs_predecessor": "PASS_IMPROVED_LEGIBILITY",
+      "fcg_fidelity": "PASS_BOUNDED_ABSTRACT_REPRESENTATION",
+      "legibility": "PASS_NO_GENERATED_TEXT",
+      "task_fidelity": "PASS",
+      "visual_coherence": "PASS"
+    },
+    "media_sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c",
+    "prize_path": "FLUX_IMAGE",
+    "provider": "BLACK_FOREST_LABS",
+    "recording_quality_gate": "PASS",
+    "secret_leakage": 0
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:6f9a8686d37ad940b2fc2bde4c4d86b89b388af23ad83de2b4a7e009afaa2d17"
+  ]
+}

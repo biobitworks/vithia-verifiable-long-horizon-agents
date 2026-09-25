@@ -1,0 +1,50 @@
+{
+  "object_id": "fco:c5cbf051cf2bc236677130448b6ff5032c6cbfe11490cdcb44cc5dfb73c6890d",
+  "object_type": "FCGStateFCO",
+  "payload": {
+    "claim_boundary": "Media generation, transcription, and normalized textual recovery are observed; hashes establish identity, not truth or causality.",
+    "edges": [
+      {
+        "relation": "REQUESTED_AUDIO_CONTENT_OF",
+        "source": "fco:1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8",
+        "target": "fco:4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673"
+      },
+      {
+        "relation": "PRODUCED",
+        "source": "fco:4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673",
+        "target": "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9"
+      },
+      {
+        "relation": "TRANSCRIPTION_ATTEMPT_FAILED_AS",
+        "source": "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9",
+        "target": "fco:22bce57a982d992b138dd5e76a5f3002e257bcf9105b69feb7c77cd4f469a1aa"
+      },
+      {
+        "relation": "TRANSCRIBED_AS",
+        "source": "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9",
+        "target": "fco:56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5"
+      },
+      {
+        "relation": "COMPARED_WITH",
+        "source": "fco:56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5",
+        "target": "fco:1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8"
+      },
+      {
+        "relation": "ASSESSES",
+        "source": "fco:aebdf933bc2fc2ad31c309eeaa74d317bc075374b70d5eb963c0b276513e639f",
+        "target": "fco:56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5"
+      }
+    ],
+    "state_label": "LONGHORIZON_MULTIMODAL_ROUNDTRIP_001"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8",
+    "fco:4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673",
+    "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9",
+    "fco:22bce57a982d992b138dd5e76a5f3002e257bcf9105b69feb7c77cd4f469a1aa",
+    "fco:56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5",
+    "fco:aebdf933bc2fc2ad31c309eeaa74d317bc075374b70d5eb963c0b276513e639f"
+  ]
+}

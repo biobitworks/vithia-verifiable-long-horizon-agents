@@ -1,0 +1,16 @@
+{
+  "object_id": "fco:1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8",
+  "object_type": "NarrationTextFCO",
+  "payload": {
+    "atom_id": "AUDIO-KA-001",
+    "language": "en",
+    "semantic_role": "incoming_event",
+    "sequence": 1,
+    "source": "LONGHORIZON_NARRATION_V001",
+    "text": "One event enters the system.",
+    "text_utf8_sha256": "2f5d4849c8dc52fff0bd69a952bc13c0c39e37d76a756c8df4a3325510510470"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

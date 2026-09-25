@@ -1,0 +1,16 @@
+{
+  "bounded_local_safetensors_count": 0,
+  "claim_boundary": "Readiness evidence only; finetune training, upload, finetune_id creation, and finetuned inference are NOT_TESTED.",
+  "dashboard_interaction_required_now": false,
+  "dashboard_location": "Customization -> Finetunes",
+  "docs_url": "https://docs.bfl.ai/flux_2/flux2_klein_training",
+  "finetune_count": 0,
+  "finetune_list_http_status": 200,
+  "next_action": "TRAIN_OR_RECOVER_LORA_CHECKPOINT_THEN_UPLOAD_AND_EXECUTE_FINETUNED_ENDPOINT",
+  "prize_path": "FLUX_FINETUNE",
+  "provider": "BLACK_FOREST_LABS",
+  "receipt_sha256": "225537641b7248bf2aadb0dcd2c63921c27194d43fbfee6da161eec2fd75a097",
+  "required_checkpoint_extension": ".safetensors",
+  "schema": "longhorizon.bfl_finetune_readiness.v1",
+  "status": "BLOCKED_NO_CHECKPOINT"
+}

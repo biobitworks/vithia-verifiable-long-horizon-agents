@@ -1,0 +1,19 @@
+{
+  "object_id": "fco:1470fc416a3babd3148b09b69c84f3b5f89ede67a135b572c39a160cdd4f15e4",
+  "object_type": "LiquidModelArtifactFCO",
+  "payload": {
+    "artifact_bytes": 1674455040,
+    "artifact_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+    "claim_boundary": "Exact downloaded GGUF byte identity and observed local create only; does not establish inference quality or benchmark superiority.",
+    "download_identity": "PASS",
+    "inference_state": "NOT_TESTED",
+    "model_family": "LFM2.5",
+    "model_variant": "2.6B",
+    "provider": "LIQUID_AI",
+    "quantization_label": "Q4_K_M",
+    "receipt_sha256": "4756a1a9dcb68f8cabd79976083304384272d81653e71b2102ba363bc94df7ec"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

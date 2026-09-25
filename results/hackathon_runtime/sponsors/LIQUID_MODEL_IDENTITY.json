@@ -1,0 +1,19 @@
+{
+  "claim_boundary": "Local model identity/presence plus reported Ollama digests; exact underlying blob bytes were not independently rehashed in this receipt.",
+  "exact_blob_bytes_independently_rehashed": false,
+  "exact_bp4_inference_receipt": "LIQUID_EXACT_BP4_CALL.json",
+  "format": "gguf",
+  "local_endpoint": "http://127.0.0.1:11435",
+  "model": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+  "model_present": true,
+  "modified_at": "2026-09-24T20:42:13.6654535-07:00",
+  "ollama_manifest_digest": "120c341e628189e9968d6e081b7dc2f94580a17a0d7f5c9f259f237d9ddd11c9",
+  "parameter_count": 1170340608,
+  "parameter_size": "1.2B",
+  "provider": "LIQUID_AI",
+  "quantization_level": "Q4_K_M",
+  "receipt_sha256": "15ff8451abe398012d45f52af447623989ed32fbf909d04808c668ce4e3c63a8",
+  "reported_parent_model_blob_digest": "b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+  "reported_size_bytes": 730896036,
+  "schema": "longhorizon.liquid_model_identity.v1"
+}

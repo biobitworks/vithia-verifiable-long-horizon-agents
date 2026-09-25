@@ -1,0 +1,27 @@
+{
+  "advisory_only": true,
+  "deterministic_verifier_remains_authoritative": true,
+  "elapsed_seconds": 1.196,
+  "http_success": true,
+  "json_parse_pass": true,
+  "model_reported": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+  "model_requested": "LiquidAI/lfm2.5-1.2b-instruct:q4_k_m",
+  "prompt_sha256": "4e35117c255dd5600bf5c875d9f46398f0611633cf4c1f2bad310739b9685462",
+  "provider": "LiquidAI_local_ollama",
+  "response_bytes": 266,
+  "response_nonempty": true,
+  "response_sha256": "de38923aae4d5dbf4cf185c9b09e38844ff5d32c36496d5763561d307f508bdd",
+  "result": {
+    "consistent": true,
+    "issues": [
+      "BLOCKED_NO_CHECKPOINT",
+      "DEFERRED",
+      "NOT_TESTED",
+      "PASS_WITH_RAW_WHITESPACE_DRIFT",
+      "PASS_LOCAL_EXACT_BP4"
+    ],
+    "note": "Sponsor execution states reflect current verification outcomes and test statuses."
+  },
+  "schema": "longhorizon.liquid_publication_lint.v1",
+  "secrets_persisted": false
+}

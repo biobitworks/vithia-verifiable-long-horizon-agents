@@ -1,0 +1,16 @@
+{
+  "object_id": "fco:bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27",
+  "object_type": "NarrationTextFCO",
+  "payload": {
+    "atom_id": "AUDIO-KA-006",
+    "language": "en",
+    "semantic_role": "bounded_context_projection",
+    "sequence": 6,
+    "source": "LONGHORIZON_NARRATION_V001",
+    "text": "Only selected evidence crosses into bounded context.",
+    "text_utf8_sha256": "c908e14961809ea2864016a07293787815692f71bc64eb403f4b809c42824e0f"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

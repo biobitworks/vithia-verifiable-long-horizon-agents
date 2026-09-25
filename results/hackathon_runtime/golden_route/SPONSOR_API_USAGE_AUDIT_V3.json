@@ -1,0 +1,26 @@
+{
+  "final_mmr_root": "235341ee449e0b269c7935374ad13b4e73d82c932441ae3787e73d612555e4a4",
+  "liquid_26b": {
+    "artifact_bytes": 1674455040,
+    "artifact_filename": "LFM2.5-2.6B-Q4_K_M.gguf",
+    "artifact_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+    "claim_boundary": "Exact downloaded GGUF byte identity and observed local create only; does not establish inference quality or benchmark superiority.",
+    "inference_with_this_26b_artifact": "NOT_TESTED",
+    "model_family": "LFM2.5",
+    "model_variant": "2.6B",
+    "modelfile_sha256": "deeb1d5b955596bac8f08c36078430cc5f4478a92a12995a83bf053beb6752f5",
+    "ollama_create_layer_sha256": "02a8b7e17487d326e46d68ce0ba24211e1b80a14c4cd0597fa73c1cd697f52ed",
+    "ollama_create_observed": "PASS",
+    "ollama_registration_current_default_socket": "NOT_OBSERVED",
+    "provider": "LIQUID_AI",
+    "quantization_label": "Q4_K_M",
+    "receipt_sha256": "4756a1a9dcb68f8cabd79976083304384272d81653e71b2102ba363bc94df7ec",
+    "schema": "longhorizon.liquid_model_download_receipt.v1",
+    "storage_scope": "magicBLACKbox_private"
+  },
+  "manifest_sha256": "a3a3bb910830a073d4473a2282123c7270f0380ee0918a3243819c7ade6cd1cb",
+  "other_lane_state": "UNCHANGED_FROM_V2",
+  "predecessor": "SPONSOR_API_USAGE_AUDIT_V2.json",
+  "receipt_sha256": "b535dac83771b2fb5b2326348485c0063e5dbdbf2ccaaed834aca4d37c426f5c",
+  "schema": "longhorizon.sponsor_api_usage_audit.v3"
+}

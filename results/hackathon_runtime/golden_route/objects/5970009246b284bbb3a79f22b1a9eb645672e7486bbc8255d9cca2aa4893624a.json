@@ -1,0 +1,17 @@
+{
+  "object_id": "fco:5970009246b284bbb3a79f22b1a9eb645672e7486bbc8255d9cca2aa4893624a",
+  "object_type": "SponsorReadinessFCO",
+  "payload": {
+    "claim_boundary": "Readiness evidence only; finetune training, upload, finetune_id creation, and finetuned inference are NOT_TESTED.",
+    "finetune_count": 0,
+    "local_checkpoint_count": 0,
+    "next_action": "TRAIN_OR_RECOVER_LORA_CHECKPOINT_THEN_UPLOAD_AND_EXECUTE_FINETUNED_ENDPOINT",
+    "prize_path": "FLUX_FINETUNE",
+    "provider": "BLACK_FOREST_LABS",
+    "receipt_sha256": "225537641b7248bf2aadb0dcd2c63921c27194d43fbfee6da161eec2fd75a097",
+    "status": "BLOCKED_NO_CHECKPOINT"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

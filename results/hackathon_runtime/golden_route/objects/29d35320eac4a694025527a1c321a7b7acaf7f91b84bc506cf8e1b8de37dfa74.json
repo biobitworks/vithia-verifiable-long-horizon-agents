@@ -1,0 +1,19 @@
+{
+  "object_id": "fco:29d35320eac4a694025527a1c321a7b7acaf7f91b84bc506cf8e1b8de37dfa74",
+  "object_type": "LiquidModelArtifactFCO",
+  "payload": {
+    "admission_state": "MODEL_IDENTITY_PASS",
+    "api_call_count": null,
+    "claim_boundary": "API/model usage identity and observed execution only; does not by itself establish prize quality or scientific correctness.",
+    "execution_status": "PASS",
+    "judge_lane": "LIQUID_AI",
+    "provider": "LIQUID_AI",
+    "receipt_sha256": "15ff8451abe398012d45f52af447623989ed32fbf909d04808c668ce4e3c63a8",
+    "secret_values_persisted": false,
+    "stage": "GOLDEN_ROUTE_LIQUID_MODEL_PRESENT",
+    "usage_metrics": {}
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

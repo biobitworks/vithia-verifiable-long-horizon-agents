@@ -1,0 +1,20 @@
+{
+  "object_id": "fco:6f9a8686d37ad940b2fc2bde4c4d86b89b388af23ad83de2b4a7e009afaa2d17",
+  "object_type": "SponsorAPIUsageFCO",
+  "payload": {
+    "api_call_count": 1,
+    "claim_boundary": "Provider execution/media identity only.",
+    "cross_machine_media_hash_verified": true,
+    "execution_status": "PASS",
+    "media_bytes": 195461,
+    "media_sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c",
+    "prize_path": "FLUX_IMAGE",
+    "provider": "BLACK_FOREST_LABS",
+    "receipt_sha256": "8dc750f389bf9c3ee89d63e59a6cc9bc17f2ae535992b13c51b27a3bf4c56c05",
+    "secret_values_persisted": false,
+    "submitted_cost_credits": 1.4000000000000001
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

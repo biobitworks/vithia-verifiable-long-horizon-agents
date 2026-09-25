@@ -1,0 +1,22 @@
+{
+  "object_id": "fco:04ef08daa91ef932806005424764098945c238facd36eba268be4b5dcd185a38",
+  "object_type": "RoundTripAssessmentFCO",
+  "payload": {
+    "exact_text_match_normalized": true,
+    "exact_text_match_raw": false,
+    "normalized_transcript": "Only selected evidence crosses into bounded context.",
+    "prompt_integrity_match": true,
+    "raw_transcript": " Only selected evidence crosses into bounded context.",
+    "reference_text": "Only selected evidence crosses into bounded context.",
+    "result": "PASS_WITH_RAW_WHITESPACE_DRIFT",
+    "source_atom_id": "AUDIO-KA-006",
+    "word_error_rate_normalized": 0.0
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27",
+    "fco:19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f",
+    "fco:c805e1384a4dcdda947b5a1280cfb193065a13f143e7e9886bd8ffb8b98bb790"
+  ]
+}

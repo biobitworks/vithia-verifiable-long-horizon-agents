@@ -1,0 +1,45 @@
+{
+  "object_id": "fco:5a7bd11417e807237a3b383ac25cf0f3e6711f2c4635064fb2d21b4f2027fe61",
+  "object_type": "FCGStateFCO",
+  "payload": {
+    "claim_boundary": "Dashboard prompt text was replayed via direct API. Dashboard-rendered media byte identity was not tested. Media/audio generation and normalized STT recovery are observed.",
+    "edges": [
+      {
+        "relation": "SPECIFIES",
+        "source": "fco:c805e1384a4dcdda947b5a1280cfb193065a13f143e7e9886bd8ffb8b98bb790",
+        "target": "fco:e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc"
+      },
+      {
+        "relation": "REQUESTED_AUDIO_CONTENT_OF",
+        "source": "fco:bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27",
+        "target": "fco:e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc"
+      },
+      {
+        "relation": "PRODUCED",
+        "source": "fco:e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc",
+        "target": "fco:52fec964494acd013274af3f049ed3cd071a3d0b627dd02a72c4b2d3b016a156"
+      },
+      {
+        "relation": "TRANSCRIBED_AS",
+        "source": "fco:52fec964494acd013274af3f049ed3cd071a3d0b627dd02a72c4b2d3b016a156",
+        "target": "fco:19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f"
+      },
+      {
+        "relation": "ASSESSES",
+        "source": "fco:04ef08daa91ef932806005424764098945c238facd36eba268be4b5dcd185a38",
+        "target": "fco:19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f"
+      }
+    ],
+    "state_label": "LONGHORIZON_BFL_DASHBOARD_PROMPT_API_REPLAY_002"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:c805e1384a4dcdda947b5a1280cfb193065a13f143e7e9886bd8ffb8b98bb790",
+    "fco:bbad0f9b1599a77aa5c2ad88654a697351219854494a9335a2160cdf7b481b27",
+    "fco:e8d8d5f3a79eae39085268ae02eeab77d7cc30e27a3e6d8b07ecaf51847b43fc",
+    "fco:52fec964494acd013274af3f049ed3cd071a3d0b627dd02a72c4b2d3b016a156",
+    "fco:19b467d3198e08ec0e69288456432e95e3bce5de13a9d35d4784ad7dba0c108f",
+    "fco:04ef08daa91ef932806005424764098945c238facd36eba268be4b5dcd185a38"
+  ]
+}

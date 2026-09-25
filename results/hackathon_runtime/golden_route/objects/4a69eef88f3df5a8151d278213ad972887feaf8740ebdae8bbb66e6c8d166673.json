@@ -1,0 +1,25 @@
+{
+  "object_id": "fco:4a69eef88f3df5a8151d278213ad972887feaf8740ebdae8bbb66e6c8d166673",
+  "object_type": "ProviderInvocationFCO",
+  "payload": {
+    "aspect_ratio": "16:9",
+    "cost_credits": 30.0,
+    "direct_api_executed": true,
+    "draft": true,
+    "duration_requested_seconds": 5,
+    "endpoint": "POST /v1/flux-3-video",
+    "generate_audio": true,
+    "mode": "t2v",
+    "prompt": "Cinematic scientific visualization on a near-black background. A single faceted amber-gold event core glows at center while precise white-gold graph lines awaken and a translucent cyan temporal plane stands behind it. Slow controlled camera pullback. Off-screen voiceover says exactly: \"One event enters the system.\" Minimal room tone, no music.",
+    "provider": "Black Forest Labs",
+    "request_id": "b503f02e-046d-40be-bed7-3a0f1df4d00f",
+    "resolution": "hd",
+    "service": "FLUX 3 Video",
+    "status": "Ready"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:1813e2ea12232b0c05947807f0047e657f617ea538eea7e8d68852a4f012d7f8"
+  ]
+}

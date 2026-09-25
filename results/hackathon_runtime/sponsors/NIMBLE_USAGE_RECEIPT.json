@@ -1,0 +1,16 @@
+{
+  "api_call_count": 1,
+  "elapsed_seconds": 4.352,
+  "output_bytes": 30043,
+  "output_sha256": "bcdae0d7ad760036ce2e071537e140ca564f124aa5f6ef37aef693ecdd892b41",
+  "provider": "NIMBLE",
+  "raw_response_persisted": false,
+  "receipt_sha256": "b2b2a64194b7a249f17ef9182e346064d1be3aa40649fff266157d477e6d6e50",
+  "returncode": 0,
+  "schema": "longhorizon.sponsor_usage_receipt.v1",
+  "secrets_persisted": false,
+  "source_domains": [],
+  "source_url_count": 0,
+  "status": "FAIL",
+  "transport": "nimble_cli"
+}

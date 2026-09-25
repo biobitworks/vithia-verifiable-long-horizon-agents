@@ -1,0 +1,18 @@
+{
+  "object_id": "fco:56433f75a548002832fa3a9e9d3d1c68858d7f5cefe8089ab0325f05e07f93d5",
+  "object_type": "SpeechToTextObservationFCO",
+  "payload": {
+    "device_observed": "mps:0",
+    "model": "openai/whisper-tiny.en",
+    "normalization": "strip_outer_whitespace_only",
+    "normalized_transcript": "One event enters the system.",
+    "provider": "local_transformers",
+    "raw_transcript": " One event enters the system.",
+    "status": "PASS"
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": [
+    "fco:4056196240bb674fce28f381e0ec0617be1e85f662ecff5529c4417daff2dcb9"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "api_call_count": 1,
+  "elapsed_seconds": 3.285,
+  "json_parse_pass": true,
+  "output_bytes": 2029,
+  "output_sha256": "0f7959bd4f10e0a3f3d9e858ce4fa1bb2a30c72ac8a2dc85d9abe4894e137009",
+  "predecessor_receipt_sha256": "b2b2a64194b7a249f17ef9182e346064d1be3aa40649fff266157d477e6d6e50",
+  "provider": "NIMBLE",
+  "raw_response_persisted": false,
+  "receipt_sha256": "2b63240c58fe52e191aa1d2d2b01b6c8314e93145bcd1508d52b7a5522d6e3e5",
+  "result_count": 3,
+  "returncode": 0,
+  "schema": "longhorizon.sponsor_usage_receipt.v2",
+  "secrets_persisted": false,
+  "source_domains": ["arxiv.org","learnagentic.substack.com","luma.com"],
+  "source_url_count": 3,
+  "status": "PASS",
+  "transport": "nimble_cli"
+}

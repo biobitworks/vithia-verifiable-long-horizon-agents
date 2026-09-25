@@ -1,0 +1,52 @@
+{
+  "breakpoint": {
+    "object_id": "fco:f0d4e91eee25a30e51943054bf43170c159470dd9ead4e0c8cafea25b7a0a74a",
+    "object_type": "BreakpointFCO",
+    "payload": {
+      "claim_boundary": "Cryptographic identity/inclusion only; does not establish semantic truth, scientific validity, causal correctness, or policy authorization.",
+      "merkle_algorithm": "SHA256_DOMAIN_SEPARATED_BINARY_TREE_V1",
+      "merkle_leaf_hashes": [
+        "52ae3c551038c4ce0b9582ae0c52a94021e2afd0280fe6537ec119db8a169c75"
+      ],
+      "merkle_leaf_ordering": "declared_state_object_order",
+      "merkle_root_sha256": "52ae3c551038c4ce0b9582ae0c52a94021e2afd0280fe6537ec119db8a169c75",
+      "predecessor_breakpoint_id": null,
+      "root_kind": "MERKLE_STATE_BREAKPOINT_WITH_CUMULATIVE_MMR",
+      "sequence": 0,
+      "stage": "GOLDEN_ROUTE_CORE_RECORDING_FREEZE",
+      "state_object_count": 1,
+      "state_object_ids": [
+        "fco:22ddb8e498b406819484ae7cf16b06f70d9657776017f971ba238e19135d5d76"
+      ],
+      "state_version_id": "vithia:bp:0000:52ae3c551038"
+    },
+    "predecessor_ids": [],
+    "schema": "vithia.fco.v1",
+    "source_ids": [
+      "fco:22ddb8e498b406819484ae7cf16b06f70d9657776017f971ba238e19135d5d76"
+    ]
+  },
+  "merkle_verified": true,
+  "mmr": {
+    "algorithm_id": "VITHIA_MMR_V1",
+    "committed": true,
+    "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+    "leaf_count": 1,
+    "leaf_encoding": "canonical_json_utf8",
+    "leaf_fields": [
+      "event_index",
+      "object_hash",
+      "state_version_id"
+    ],
+    "leaf_ordering": "breakpoint_sequence_ascending",
+    "peaks": [
+      "e7d5235ff5bed23fda93cb92bd726f1b4c3b4911d796b03568b3e7a4a381bb46"
+    ],
+    "receipt_hash": "4ddc3d81aceded256e982e6d4d9bf4ba3a71cb0f8c5ec8f878ed6461e2404f41",
+    "root_sha256": "5161a42c0f4c5705d76d51a7bb2b5257a158f55da66045697f1821db4b529201",
+    "schema": "vithia.mmr_verification.v1",
+    "verification_passed": true
+  },
+  "receipt_sha256": "27d1a5431b6e2033e94862536685e433064702ed2f9456374f2b83dc80b8282f",
+  "schema": "vithia.breakpoint_receipt.v1"
+}

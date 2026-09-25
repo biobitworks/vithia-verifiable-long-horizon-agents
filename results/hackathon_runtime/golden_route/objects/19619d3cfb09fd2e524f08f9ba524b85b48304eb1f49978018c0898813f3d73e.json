@@ -1,0 +1,25 @@
+{
+  "object_id": "fco:19619d3cfb09fd2e524f08f9ba524b85b48304eb1f49978018c0898813f3d73e",
+  "object_type": "SponsorAPIUsageFCO",
+  "payload": {
+    "admission_state": "API_USAGE_PASS",
+    "api_call_count": 1,
+    "claim_boundary": "API/model usage identity and observed execution only; does not by itself establish prize quality or scientific correctness.",
+    "execution_status": "PASS",
+    "judge_lane": "FLUX_IMAGE",
+    "provider": "BLACK_FOREST_LABS",
+    "receipt_sha256": "2405b0cf2b8b3dcfe2cc2ea9c3a87e93692402b1fb871c4e5d026fb39c584171",
+    "secret_values_persisted": false,
+    "stage": "GOLDEN_ROUTE_BFL_IMAGE_API_USED",
+    "usage_metrics": {
+      "generation_submit_http_status": 200,
+      "media_bytes": 209758,
+      "media_sha256": "0c255d5054aa662721a9bd21cb10a286f41e4fe0bf29ecadb5f5b927265120d9",
+      "poll_final_status": "Ready",
+      "submitted_cost_credits": 1.4000000000000001
+    }
+  },
+  "predecessor_ids": [],
+  "schema": "vithia.fco.v1",
+  "source_ids": []
+}

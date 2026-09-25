@@ -1,0 +1,18 @@
+{
+  "schema": "longhorizon.bfl_image_quality_eval.v1",
+  "provider": "BLACK_FOREST_LABS",
+  "prize_path": "FLUX_IMAGE",
+  "media_sha256": "5e8dc6a39b885da607ef7022ca91106dc893146256ec0af7f606256e614a3c5c",
+  "predecessor_media_sha256": "0c255d5054aa662721a9bd21cb10a286f41e4fe0bf29ecadb5f5b927265120d9",
+  "cross_machine_hash_parity": true,
+  "task_fidelity": "PASS",
+  "fcg_fidelity": "PASS_BOUNDED_ABSTRACT_REPRESENTATION",
+  "visual_coherence": "PASS",
+  "demo_usefulness": "PASS",
+  "legibility": "PASS_NO_GENERATED_TEXT",
+  "distinctiveness_vs_predecessor": "PASS_IMPROVED_LEGIBILITY",
+  "secret_leakage": 0,
+  "broken_lineage_references": 0,
+  "recording_quality_gate": "PASS",
+  "prize_quality_claim_boundary": "Judge-facing recording quality only; not a statistical or universal aesthetic superiority claim."
+}
