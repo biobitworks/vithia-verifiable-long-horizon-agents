@@ -1,0 +1,16 @@
+{
+  "api_call_count": 1,
+  "golden_root_observed": true,
+  "json_parse_pass": true,
+  "private_raw_bytes": 290093,
+  "private_raw_sha256": "086e1d40d37b32ca65255ef7be29f09d00de15309ee03b4e12b217f5fe785077",
+  "provider": "NIMBLE",
+  "raw_response_persisted_publicly": false,
+  "repo_name_observed": true,
+  "returncode": 0,
+  "schema": "longhorizon.nimble_public_repo_validation.v1",
+  "secrets_persisted": false,
+  "status": "PASS",
+  "target_url": "https://github.com/biobitworks/vithia-verifiable-long-horizon-agents",
+  "transport": "nimble_cli_extract"
+}

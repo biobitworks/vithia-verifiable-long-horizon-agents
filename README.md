@@ -52,6 +52,13 @@ source → FCO atoms → FCG → Anticube/ΔG* simulation metadata → candidate
 
 The exact active context is committed as bytes rather than represented only by a token count. A cold-restart test kills the agent process and reconstructs the same bounded context/custody state from persisted objects without requiring the original conversation.
 
+## Post-publication validation
+
+- Anonymous GitHub page/raw README access: **PASS**
+- Anonymous git ls-remote: **PASS**
+- Nimble extraction of this public repository: **PASS**; repository name and current Golden Route root were observed.
+- RawTree publication-event insert: **HTTP 200**; immediate SQL readback returned zero rows, so this specific post-publication check is preserved as **FAIL**. The earlier GR5 RawTree insert/readback integration remains **PASS** and is not overwritten by this successor observation.
+
 ## Claim boundary
 
 Merkle inclusion establishes integrity/inclusion, not causality or truth. Hashes establish identity, not correctness. Anticube and Hydra/ΔG* are simulation metadata in this MVP; biological validation is NOT_TESTED.

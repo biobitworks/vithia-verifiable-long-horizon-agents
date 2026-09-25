@@ -1,0 +1,18 @@
+{
+  "bound_content_commit": "017ecf10b4845e7b3097730f4a4c785dd110fe8e",
+  "bound_golden_route_mmr_root": "47292dd4a67dcd23e759059856da2f22f341c6b2178d0e211a42777bc7949087",
+  "insert_http_status": 200,
+  "insert_response_sha256": "ae7517535c6685126c6e8c45afb5d595769e8cf81484eb8c3ee7d1831bc73364",
+  "judge_lane": "TINYBIRD_RAWTREE_SHARED",
+  "provider": "RAWTREE",
+  "query_count": 0,
+  "query_http_status": 200,
+  "query_response_sha256": "12c849fa390f44b90d6ecca1ccb6492193bdc046471d5881833aaa2996c0b0bf",
+  "raw_response_persisted_publicly": false,
+  "readback_match": false,
+  "run_id": "lh-public-repo-017ecf10",
+  "schema": "longhorizon.rawtree_public_repo_validation.v1",
+  "secrets_persisted": false,
+  "status": "FAIL",
+  "target_repository": "https://github.com/biobitworks/vithia-verifiable-long-horizon-agents"
+}

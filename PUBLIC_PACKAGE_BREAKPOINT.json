@@ -1,14 +1,14 @@
 {
   "bound_golden_route_final_breakpoint_id": "fco:ff58c25a8cb416241fc468520f4c9a3514bc8fcab0e7fab30f9147a80a696093",
   "bound_golden_route_mmr_root": "47292dd4a67dcd23e759059856da2f22f341c6b2178d0e211a42777bc7949087",
-  "breakpoint_sha256": "732726f479631938c7f41e5a5c328d6fdbab0d52072f08479fe61b306086c921",
+  "breakpoint_sha256": "1a125a9c47e715f146a376f287d97529e0e49933c05f26d8ed2c7db806fb2dc8",
   "claim_boundary": "Public-file Merkle root establishes exact released-file identity/inclusion for the declared file set only.",
   "excluded_paths": [
     "PUBLIC_PACKAGE_BREAKPOINT.json",
     "RELEASE_RECEIPT.json",
     ".git/**"
   ],
-  "file_count": 84,
+  "file_count": 86,
   "files": [
     {
       "bytes": 43,
@@ -21,14 +21,14 @@
       "sha256": "d31a5cf273b17d91fdaa3b7712f8dc923597b8b4c24ef9e0d772d7ad039c84a4"
     },
     {
-      "bytes": 1422,
+      "bytes": 1846,
       "path": "PUBLICATION_STATUS.json",
-      "sha256": "9f6dded8c561632b429f8b499bd073f60e4b4989ddb3d2caa473d34503aafd02"
+      "sha256": "7c7b8bc16f12933c209d0a7ccda90a70f7df0c7904cefef7c2a0f4215dee30e3"
     },
     {
-      "bytes": 3255,
+      "bytes": 3776,
       "path": "README.md",
-      "sha256": "190ab300662545f45f1d534229f761afb2c6233085417f0ec1dd2f360ba4efe3"
+      "sha256": "d4ffd59882079ec75b8445d849e8ad16ff60422604ab729a1bc044d3a65acc20"
     },
     {
       "bytes": 1961,
@@ -361,6 +361,11 @@
       "sha256": "10ca96a533c8d89b2388e2518d4de28650a0aa3562eb6b52e54ae13d9d64874e"
     },
     {
+      "bytes": 560,
+      "path": "results/hackathon_runtime/sponsors/NIMBLE_PUBLIC_REPO_VALIDATION.json",
+      "sha256": "7f663cce031f8a1b93301298f42b98b377696e9bc1b6a048ba1a70bb2bac68b1"
+    },
+    {
       "bytes": 512,
       "path": "results/hackathon_runtime/sponsors/NIMBLE_USAGE_RECEIPT.json",
       "sha256": "00b9181114ac44c1d75abe47d3cae076f117cd4cf23696709683f7c674744b75"
@@ -369,6 +374,11 @@
       "bytes": 709,
       "path": "results/hackathon_runtime/sponsors/NIMBLE_USAGE_RECEIPT_V2.json",
       "sha256": "cb8ac0eebce685ccbbb5916712dbefd593e8f1607f285aa2be0271885cf88be5"
+    },
+    {
+      "bytes": 826,
+      "path": "results/hackathon_runtime/sponsors/RAWTREE_PUBLIC_REPO_VALIDATION.json",
+      "sha256": "0b84d71a7c6560c15d3d5d471bb9f431c39577ead24882615e6cf8df0f4a7c95"
     },
     {
       "bytes": 764,
@@ -435,8 +445,8 @@
   "leaf_hashes": [
     "eeeb56f6086ceaee07b989198e25be1338e60068a2954cdbd2bdc0443935ca57",
     "43ae55e8a6ca770362071d80f72c26e26a8645c39c790f9aa3b8a446a1d711a2",
-    "d511cb08628da8a0851ad6b97f762c35e9d4292d87169f94bb7d3dc17d05d0e4",
-    "10c39a711b449f1aa99abea9f4174cc27e1ed637880ce558d5aef6c0ca2a1194",
+    "234a8237bf1713e6ce6e4633c10165fc99b5287e5d3bd0ea5cd9f7db52a226f2",
+    "7d6f89226945b64635a572b951c20716e02dbaf2b023364dfef5aaaad2ec9490",
     "197e7165401ca7c08785930b2847cb7ffb50e6912f06eb79fbf07bdf51406010",
     "a820082228f4e5246612866f8371817bc70856dde72de85fdd986fb5517adee7",
     "bfba0145472e372b9e5ad8b2a0708abbe27e6362ebe28261ac1f342a791bafd1",
@@ -503,8 +513,10 @@
     "1fc92a1d4744cc529d614f6d3a8600d4e8182fb9f78d8632a0e01469884355d7",
     "23e08e2c46fbbaedd074731745e641fe760db6e2cb890cd9af06be00e7dc25fa",
     "f1d1dd22e45bb6eef25a0e6709ff4fdbc1c01d9f8d84147933ccc88820597d9c",
+    "ec93a56727ab1ea00074542ee28583127fe7f9d3132b1a3d0e9742f8cbb106dc",
     "f09e8530c54c6e3b76c6646e03f9b3ebc4d50219efe9f438af4c82a6285aa36e",
     "66c3fbbdaa196b3583d29a1e626e1b8dceed6eca683c69e15d37d4a22977431e",
+    "f33b112540472a41e61d934f0ffdef6d85742bf4acf1cb6914170125680a6ead",
     "12df02e6d68a63c220e0e34177791598d7054dce585d9daf065238869ded170b",
     "6ef16870dbe27b289b4a6c9a69c1047db5f633de787505e8d3a04c5f9abf9224",
     "405e9d66ccb1086069f1d31b5a071fbf8bfb10a305e38fd640043a752171cf33",
@@ -520,7 +532,7 @@
   ],
   "leaf_ordering": "lexicographic_path",
   "leaf_prefix": "LONGHORIZON_PUBLIC_FILE_LEAF_V1:",
-  "merkle_root_sha256": "2039ecc29a28855e4a2a25807fd4a63b546ecb241d48d0544cc33635638d0b1a",
+  "merkle_root_sha256": "d868acfb5798cc26b1880abeaf368f2d31be4088a1bee57ad72b5b39ca92490f",
   "node_prefix": "LONGHORIZON_PUBLIC_FILE_NODE_V1:",
   "root_kind": "MERKLE_PUBLIC_FILE_SET",
   "schema": "longhorizon.public_package_breakpoint.v1"
