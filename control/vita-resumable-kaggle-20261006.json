@@ -2,11 +2,11 @@
   "schema": "vita_infinite.github_pull_control.v1",
   "transport_only_not_canonical_state": true,
   "run_id": "VITA-RESUMABLE-KAGGLE-20261006-002",
-  "control_revision": 2,
-  "lease_seq": 1,
-  "lease_duration_s": 15,
-  "action_seq": 0,
-  "action": "NONE",
-  "reason": "run 002 initial lease; intentional silence to test remote lease-expiry pause",
+  "control_revision": 3,
+  "lease_seq": 2,
+  "lease_duration_s": 20,
+  "action_seq": 1,
+  "action": "RESUME",
+  "reason": "controller reconnect after intentional lease expiry; resume from latest verified pause checkpoint",
   "autonomous_long_run_authorized": false
 }
