@@ -1,0 +1,12 @@
+{
+  "schema": "vita_infinite.github_pull_control.v1",
+  "transport_only_not_canonical_state": true,
+  "run_id": "VITA-RESUMABLE-KAGGLE-20261006-001",
+  "control_revision": 1,
+  "lease_seq": 1,
+  "lease_duration_s": 15,
+  "action_seq": 0,
+  "action": "NONE",
+  "reason": "initial lease; controller will intentionally go silent to test expiry pause",
+  "autonomous_long_run_authorized": false
+}
