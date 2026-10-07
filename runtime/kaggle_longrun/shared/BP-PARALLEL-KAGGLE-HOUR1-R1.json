@@ -1,0 +1,47 @@
+{
+  "decisions": [
+    "preserve prior premature HOUR1 observation unchanged",
+    "promote only discrete >1h survival observation",
+    "do not equate lane Merkle construction with VITHIA_MMR_V1",
+    "do not append project canonical MMR"
+  ],
+  "executed": [
+    "Kaggle live status query from magicPRObox",
+    "elapsed-time computation",
+    "observer-route and interaction MMR recomputation"
+  ],
+  "failures": [],
+  "id": "BP-PARALLEL-KAGGLE-HOUR1-R1",
+  "next_action": "NEXT_GOVERNED_LIVENESS_OBSERVATION",
+  "not_tested": [
+    "continuous liveness between external observations",
+    "2h survival",
+    "4h survival",
+    "6h survival",
+    "8h survival",
+    "Kaggle-internal hourly Merkle roots while jobs are still running"
+  ],
+  "observed": {
+    "continuous_liveness": "UNKNOWN",
+    "observed_at_utc": "2026-10-07T15:59:32Z",
+    "vcc_elapsed_seconds": 3886.943,
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 3903.9,
+    "vita_status": "RUNNING"
+  },
+  "parent": "BP-PARALLEL-KAGGLE-HOUR1",
+  "project_canonical_mmr_append": false,
+  "proposed": [
+    "continue observer-route/interaction MMR at later governed observations",
+    "add run-local VITHIA_MMR_V1 only in a future kernel successor, not by mutating running jobs"
+  ],
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "signature_state": "NOT_SIGNED",
+  "unresolved": [
+    "runtime accelerator model",
+    "runtime-generated lane Merkle roots not externally visible while workers run"
+  ],
+  "verified_new": [
+    "Vita and VCC both externally observed RUNNING after their individual one-hour start boundaries"
+  ]
+}

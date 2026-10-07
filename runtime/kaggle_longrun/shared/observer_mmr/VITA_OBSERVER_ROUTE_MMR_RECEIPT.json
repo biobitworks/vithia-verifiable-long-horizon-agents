@@ -1,0 +1,27 @@
+{
+  "algorithm_id": "VITHIA_MMR_V1",
+  "claim_boundary": "Ordered identity/custody commitment only; not truth, causality, scientific validity, or project admission.",
+  "committed": true,
+  "derived_from_algorithm": "HYDRALAMP_MMR_V1",
+  "leaf_count": 3,
+  "leaf_encoding": "canonical_json_utf8",
+  "leaf_fields": [
+    "event_index",
+    "object_hash",
+    "state_version_id"
+  ],
+  "leaf_ordering": "breakpoint_sequence_ascending",
+  "lineage": "VITA_OBSERVER_ROUTE_MMR",
+  "peaks": [
+    "64b662d94772f21cf20548ca7e6dae16d464e577b843aee266d1343bacf955b8",
+    "51b35eed0dc72a2010360d3116d1388ae6503cf90ea115077de081e5d20b0306"
+  ],
+  "project_canonical_mmr_append": false,
+  "receipt_hash": "04463c960fa40b505420c61c399720564b7bacef651e19f838d44291ebe83c2a",
+  "root_sha256": "056d719134de4516867363cc5ed4cd017df57517bea17e953ab73e5cc3a11a94",
+  "schema": "vithia.mmr_verification.v1",
+  "signature_state": "NOT_SIGNED",
+  "source_ledger": "runtime/kaggle_longrun/shared/PARALLEL_OBSERVATION_LEDGER.jsonl",
+  "source_ledger_sha256": "df7ad8bce68f8a4df381c4f557a3e66cda1bb51aca472681eb171068eb246fce",
+  "verification_passed": true
+}

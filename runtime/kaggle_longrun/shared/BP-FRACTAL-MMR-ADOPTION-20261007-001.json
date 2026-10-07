@@ -1,0 +1,56 @@
+{
+  "decisions": [
+    "MMR and FCG remain distinct structures",
+    "run-internal lane Merkle is not relabeled as VITHIA MMR",
+    "route and interaction MMRs may advance without project canonical MMR admission",
+    "no running kernel mutation or relaunch",
+    "UNKNOWN remains UNKNOWN"
+  ],
+  "executed": [
+    "used existing VITHIA_MMR_V1 implementation",
+    "created observation FCOs and typed FCG edges",
+    "computed ordered leaves, peaks, and MMR roots",
+    "replayed all persisted FCO leaves from disk",
+    "checked deterministic regeneration"
+  ],
+  "failures": [],
+  "federation_mmr_append": false,
+  "id": "BP-FRACTAL-MMR-ADOPTION-20261007-001",
+  "next_action": "CONTINUE_GOVERNED_LIVENESS_OBSERVATION_AND_APPEND_ROUTE_INTERACTION_MMRS",
+  "not_tested": [
+    "2h survival",
+    "4h survival",
+    "6h survival",
+    "8h survival",
+    "run-internal VITHIA MMR in current kernel versions"
+  ],
+  "observed": {
+    "observer_mmr_leaf_count": 3,
+    "parallel_interaction_mmr_root": "d96775b87454ca4479758326f56f9384551b2b33ef90046d53c7904c32025b2b",
+    "replay_verification": "PASS",
+    "running_kernel_lane_merkle_roots": "UNKNOWN_NOT_EXTERNALLY_OBSERVED_WHILE_RUNNING",
+    "vcc_observer_route_mmr_root": "91ed16d34c00b59baee0105f0dcaef18c8052cf30f80e240c1f3ffbb8dc96dd6",
+    "vcc_run_internal_mmr": "NOT_IMPLEMENTED_IN_ALREADY_RUNNING_KERNEL",
+    "vita_observer_route_mmr_root": "056d719134de4516867363cc5ed4cd017df57517bea17e953ab73e5cc3a11a94",
+    "vita_run_internal_mmr": "NOT_IMPLEMENTED_IN_ALREADY_RUNNING_KERNEL"
+  },
+  "parent": "BP-PARALLEL-KAGGLE-HOUR1-R1",
+  "project_canonical_mmr_append": false,
+  "proposed": [
+    "future kernel successor adds VITHIA_MMR_V1 locally at checkpoint/hourly state changes",
+    "later governed project admission may consume lower-level roots without rewriting them"
+  ],
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "signature_state": "NOT_SIGNED",
+  "unresolved": [
+    "current in-kernel lane Merkle roots unavailable until Kaggle exposes outputs or run terminates",
+    "continuous liveness between discrete external observations remains UNKNOWN"
+  ],
+  "verified_new": [
+    "FRACTAL_STATE_INVARIANT_V1 machine-readable successor created",
+    "VITA observer-route MMR constructed and replay-verified",
+    "VCC observer-route MMR constructed and replay-verified",
+    "parallel interaction MMR constructed and replay-verified",
+    "both Kaggle workers discretely observed RUNNING after individual one-hour boundaries"
+  ]
+}

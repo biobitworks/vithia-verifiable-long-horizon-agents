@@ -1,0 +1,108 @@
+{
+  "algorithm_id": "VITHIA_MMR_V1",
+  "all_pass": true,
+  "checks": {
+    "PARALLEL_INTERACTION_MMR": {
+      "fcos_valid": true,
+      "leaf_count": 3,
+      "leaf_count_match": true,
+      "ordered_leaves": [
+        {
+          "event_index": 0,
+          "leaf_hash": "95318ce6af30e96b0bde2701b6543bc7f50528c605aa225f2de9ac1eba4733bd",
+          "object_id": "fco:57be585dfe551aae8c49cdf5199fd0f2de3a921dcc43a1dbfaafd98052765a95",
+          "state_version_id": "PARALLEL_INTERACTION_MMR:state:0000:57be585dfe55"
+        },
+        {
+          "event_index": 1,
+          "leaf_hash": "edc46bdfe254bb42f7c1017096b4a95316b27126027d567cf75892300fb4b95e",
+          "object_id": "fco:ba4642c362efd6ec6fefefb9da75d7743576b5b27eee00c014efefbe75c013b9",
+          "state_version_id": "PARALLEL_INTERACTION_MMR:state:0001:ba4642c362ef"
+        },
+        {
+          "event_index": 2,
+          "leaf_hash": "da913a6db2e5ad351d6378a191ac40918340d697c91b0ddec9651098fd06f683",
+          "object_id": "fco:b4fa5630269a33a4acb08b312c6d96abe5b1d3357594ec0df42fddad9629d8a9",
+          "state_version_id": "PARALLEL_INTERACTION_MMR:state:0002:b4fa5630269a"
+        }
+      ],
+      "peaks_match": true,
+      "recomputed_peaks": [
+        "619a397e88db415a545170a9c815f0c5c9f16ef1184aa0070f7555a9229f7cdf",
+        "da913a6db2e5ad351d6378a191ac40918340d697c91b0ddec9651098fd06f683"
+      ],
+      "recomputed_root_sha256": "d96775b87454ca4479758326f56f9384551b2b33ef90046d53c7904c32025b2b",
+      "root_match": true
+    },
+    "VCC_OBSERVER_ROUTE_MMR": {
+      "fcos_valid": true,
+      "leaf_count": 3,
+      "leaf_count_match": true,
+      "ordered_leaves": [
+        {
+          "event_index": 0,
+          "leaf_hash": "dd08c1d91af98a8fab208eae5e514ceda21b3e0e9850b4268f95e74bcf69a763",
+          "object_id": "fco:66f12cbc14ce98c905e1047f5468c9d6d040d2fafa317eaba81f99bbffa71a18",
+          "state_version_id": "VCC_OBSERVER_ROUTE_MMR:state:0000:66f12cbc14ce"
+        },
+        {
+          "event_index": 1,
+          "leaf_hash": "1563a8494087589db6ab44d01a9838b3124d6f57b5f7a0c8fd5a3a5ce1cf8944",
+          "object_id": "fco:233a6844419b9de384ad412dd19991b0f947a5585a3334f04de036131c970162",
+          "state_version_id": "VCC_OBSERVER_ROUTE_MMR:state:0001:233a6844419b"
+        },
+        {
+          "event_index": 2,
+          "leaf_hash": "375b5d975175d7a499e8f3b2b37f8bfc34ee576c9b1972bfa534bdeb2ae142e0",
+          "object_id": "fco:845fd3f650ab734759a5a8c7734583bc2d3070db288b26e25b5f96a9b4641008",
+          "state_version_id": "VCC_OBSERVER_ROUTE_MMR:state:0002:845fd3f650ab"
+        }
+      ],
+      "peaks_match": true,
+      "recomputed_peaks": [
+        "fd5d8cc96d2635d601f29dae989b42c7f805446df9f14be40fc0fabdeca34999",
+        "375b5d975175d7a499e8f3b2b37f8bfc34ee576c9b1972bfa534bdeb2ae142e0"
+      ],
+      "recomputed_root_sha256": "91ed16d34c00b59baee0105f0dcaef18c8052cf30f80e240c1f3ffbb8dc96dd6",
+      "root_match": true
+    },
+    "VITA_OBSERVER_ROUTE_MMR": {
+      "fcos_valid": true,
+      "leaf_count": 3,
+      "leaf_count_match": true,
+      "ordered_leaves": [
+        {
+          "event_index": 0,
+          "leaf_hash": "4ce757f4aaca0cd1232a29d91d7594a77365798c1387432171ef006a72028f67",
+          "object_id": "fco:a4751dee71552e62f0a4da3396819969267b7cc8c1a90308e26de480711d3498",
+          "state_version_id": "VITA_OBSERVER_ROUTE_MMR:state:0000:a4751dee7155"
+        },
+        {
+          "event_index": 1,
+          "leaf_hash": "4513519b345b0c233d5c28bf5db09cd6d392ca8719d45cbb94836d9f2e5cdb81",
+          "object_id": "fco:676c57b0eabb5821bcff21e73202f294551da0eb08d12aa228a85d7a9a0d780f",
+          "state_version_id": "VITA_OBSERVER_ROUTE_MMR:state:0001:676c57b0eabb"
+        },
+        {
+          "event_index": 2,
+          "leaf_hash": "51b35eed0dc72a2010360d3116d1388ae6503cf90ea115077de081e5d20b0306",
+          "object_id": "fco:78cc8ec7370fd866134021a271df2fcc69473fc432b629fad73416c16d5df17e",
+          "state_version_id": "VITA_OBSERVER_ROUTE_MMR:state:0002:78cc8ec7370f"
+        }
+      ],
+      "peaks_match": true,
+      "recomputed_peaks": [
+        "64b662d94772f21cf20548ca7e6dae16d464e577b843aee266d1343bacf955b8",
+        "51b35eed0dc72a2010360d3116d1388ae6503cf90ea115077de081e5d20b0306"
+      ],
+      "recomputed_root_sha256": "056d719134de4516867363cc5ed4cd017df57517bea17e953ab73e5cc3a11a94",
+      "root_match": true
+    }
+  },
+  "claim_boundary": "MMR replay verifies ordered commitment construction/integrity only; it does not establish truth, causality, biological validity, or VCC scientific validity.",
+  "project_canonical_mmr_append": false,
+  "receipt_sha256": "0ae4c0e05f2f599092a3e03333b13419441c637544b9fa77e63f9476335e9da3",
+  "schema": "kaggle_observer_mmr_replay_verification.v1",
+  "signature_state": "NOT_SIGNED",
+  "verification_mode": "INDEPENDENT_REPLAY_FROM_PERSISTED_FCO_JSONL"
+}
