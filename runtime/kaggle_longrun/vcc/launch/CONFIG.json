@@ -1,0 +1,31 @@
+{
+  "checkpoint_interval_seconds": 300,
+  "claim_ceiling": "VCC_INFRASTRUCTURE_RUNTIME_QUALIFICATION_ONLY;NO_SCORE_BEARING_EXPERIMENT;NO_SUBMISSION",
+  "github_check_interval_seconds": 3600,
+  "github_control_branch": "runtime/kaggle-vcc-longrun-liveness-20261007",
+  "github_control_path": "runtime/kaggle_longrun/vcc/CONTROL.json",
+  "github_repo": "biobitworks/vithia-verifiable-long-horizon-agents",
+  "kernel_slug": "biobitworks/vcc-longrun-liveness-20261007",
+  "kernel_title": "VCC Longrun Liveness 20261007",
+  "lane": "VCC_LONGRUN_LIVENESS",
+  "predecessor_state": "VCC::READY_NOT_AUTHORIZED;SAFE_TO_START_LONG_RUNS=NO",
+  "project_id": "FCO-FCG-KAGGLE-LIVENESS-20261007",
+  "run_id": "VCC-KAGGLE-LIVENESS-20261007-001",
+  "scientific_state": "VCC_SCIENTIFIC_EXECUTION=NOT_EXECUTED;VCC_INFRASTRUCTURE_LIVENESS_TEST=EXECUTED_IF_RUNNING;SAFE_TO_START_LONG_RUNS=NO",
+  "seed": 20261007,
+  "source_descriptor": {
+    "hidden_challenge_outcomes_used": false,
+    "kind": "SYNTHETIC_REFERENCE",
+    "purpose": "VCC-shaped runtime/liveness surrogate only",
+    "shape": {
+      "batch": 64,
+      "d_model": 64,
+      "sequence_length": 16,
+      "vocab": 4096
+    }
+  },
+  "source_input_root": "75aea1889a06a0adfd2e55c8f51c7217c2905c3c732cdefa1a1a02b4e55e69bb",
+  "step_sleep_seconds": 0.05,
+  "target_wall_time_seconds": 28800,
+  "workload_kind": "VCC_SYNTHETIC_SEQUENCE_SHAPED"
+}
