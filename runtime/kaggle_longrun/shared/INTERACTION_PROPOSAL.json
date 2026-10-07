@@ -1,0 +1,14 @@
+{
+  "both_run_ids": [
+    "VITA-KAGGLE-LIVENESS-20261007-001",
+    "VCC-KAGGLE-LIVENESS-20261007-001"
+  ],
+  "causal_interaction_claim": "NONE",
+  "created_at_utc": "2026-10-07T14:55:22Z",
+  "lane_roots": "NOT_COMPUTED_AT_LAUNCH",
+  "observation": "BOTH_KERNEL_WORKERS_RUNNING_CONCURRENTLY",
+  "project_mmr_append": false,
+  "schema": "ParallelKaggleInteractionFCO.proposal.v1",
+  "signature_state": "NOT_SIGNED",
+  "watchtower_observer_state": "NOT_REQUIRED_FOR_KAGGLE_LIVENESS"
+}
