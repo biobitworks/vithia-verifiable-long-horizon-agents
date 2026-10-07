@@ -1,0 +1,13 @@
+{
+  "schema": "vita_infinite.github_pull_control.v1",
+  "transport_only_not_canonical_state": true,
+  "run_id": "VITA-DAISY-MULTIHOUR-EXP168-20261006-001",
+  "control_revision": 1,
+  "lease_seq": 1,
+  "lease_duration_s": 300,
+  "action_seq": 0,
+  "action": "CONTINUE",
+  "reason": "authorize bounded Segment 1 only under preregistered 30-minute wall boundary",
+  "segment_id": "SEGMENT-001",
+  "autonomous_long_run_authorized": false
+}
