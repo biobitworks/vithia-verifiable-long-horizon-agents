@@ -1,0 +1,51 @@
+{
+  "decisions": [
+    "synthetic/reference workloads only",
+    "no Vita biological claim",
+    "no VCC scientific training/submission",
+    "GitHub writes from Kaggle disabled because no authorized write credential was established",
+    "GitHub silence/unreachability continues computation"
+  ],
+  "executed": [
+    "GitHub control branch creation",
+    "source/config binding",
+    "Python compile preflight",
+    "Kaggle Vita push",
+    "Kaggle VCC push",
+    "live Kaggle status observation"
+  ],
+  "failures": [],
+  "id": "BP-KAGGLE-DUAL-LAUNCH-20261007-001",
+  "next_action": "POST_30_MINUTE_LIVENESS",
+  "not_tested": [
+    "BOTH_RUNS_SURVIVE_30_MINUTES",
+    "GITHUB_H01_ROUNDTRIP",
+    "COMPUTE_CONTINUED_AFTER_H01",
+    "PASS_8H"
+  ],
+  "observed": {
+    "parallel_execution_observed": "YES",
+    "vcc_state": "RUNNING",
+    "vita_state": "RUNNING"
+  },
+  "parent": "VITA_OLD_30MIN_LEASE_PROTOCOL + VCC_READY_NOT_AUTHORIZED",
+  "project_mmr_append": false,
+  "proposed": [
+    "POST_30_MINUTE_LIVENESS",
+    "H01_GITHUB_ROUNDTRIP",
+    "8H_TARGET"
+  ],
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "signature_state": "NOT_SIGNED",
+  "unresolved": [
+    "actual Kaggle accelerator model",
+    "runtime-created checkpoint receipts not externally retrievable while workers are running"
+  ],
+  "verified_new": [
+    "two Kaggle kernel version-1 launches accepted",
+    "both worker states RUNNING at 2026-10-07T14:55:22Z",
+    "parallel start delta 16.957 seconds",
+    "corrected code SHA256 identities bound to GitHub control branches",
+    "short lease termination removed from successor source"
+  ]
+}
