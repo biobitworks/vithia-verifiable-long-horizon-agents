@@ -361,10 +361,10 @@ def write_hourly(hour_index: int, wall: float, step: int, cp: dict, control: dic
     p = HOUR_DIR / f"HOUR-{hour_index:03d}.json"
     atomic_json(p, obs)
     root, leaves = merkle_root_from_hourly()
-    obs["lane_merkle_root_after_observation"] = root
-    obs["lane_merkle_leaf_count"] = len(leaves)
-    atomic_json(p, obs)
-    append_jsonl(HOURLY_BREAKPOINTS, obs)
+    breakpoint_record = dict(obs)
+    breakpoint_record["lane_merkle_root_after_observation"] = root
+    breakpoint_record["lane_merkle_leaf_count"] = len(leaves)
+    append_jsonl(HOURLY_BREAKPOINTS, breakpoint_record)
     append_jsonl(STATUS_WRITES, {
         "timestamp_utc": utc_now(),
         "hour_index": hour_index,
@@ -400,6 +400,9 @@ def main() -> int:
         "empty_tree_rule": "SHA256(b'KAGGLE-LONGRUN-EMPTY-v1')",
         "scope": "lane hourly observations only; NOT project MMR",
     })
+    for p in [CHECKPOINT_MANIFEST, CONTROL_OBSERVATIONS, STATUS_WRITES, ERROR_LEDGER, HOURLY_BREAKPOINTS]:
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.touch(exist_ok=True)
     atomic_json(CAPABILITY_RECEIPT, {
         "schema": "kaggle_longrun_capability_receipt.v1",
         "actor_id": CONFIG["kernel_slug"],
@@ -590,16 +593,6 @@ def main() -> int:
         "signature_state": "NOT_SIGNED",
     }
     atomic_json(TERMINAL_RESULT, terminal)
-    manifest = final_manifest()
-    atomic_json(VERIFY_RECEIPT, {
-        "schema": "kaggle_longrun_verify_receipt.v1",
-        "created_at_utc": utc_now(),
-        "terminal_checkpoint": verify,
-        "hourly_merkle_root": root,
-        "hourly_leaf_count": len(leaves),
-        "manifest_body_sha256": manifest["manifest_body_sha256"],
-        "state": "PASS" if verify["all_pass"] else "FAIL",
-    })
     FINAL_HANDOFF.write_text(
         "# Kaggle Long-Run Final Handoff\n\n"
         + f"- Lane: {CONFIG['lane']}\n"
@@ -614,6 +607,15 @@ def main() -> int:
         + f"- Claim ceiling: {CONFIG['claim_ceiling']}\n",
         encoding="utf-8",
     )
+    atomic_json(VERIFY_RECEIPT, {
+        "schema": "kaggle_longrun_verify_receipt.v1",
+        "created_at_utc": utc_now(),
+        "terminal_checkpoint": verify,
+        "hourly_merkle_root": root,
+        "hourly_leaf_count": len(leaves),
+        "state": "PASS" if verify["all_pass"] else "FAIL",
+    })
+    final_manifest()
     return 0 if test_result in {"PASS_8H", "PASS_PARTIAL_PLATFORM_LIMIT", "ABSTAIN"} else 2
 
 if __name__ == "__main__":
