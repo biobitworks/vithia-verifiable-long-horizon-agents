@@ -1,0 +1,50 @@
+{
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "id": "BP-PARALLEL-KAGGLE-HOUR7",
+  "parent": "BP-PARALLEL-KAGGLE-HOUR6",
+  "verified_new": [
+    "Both workers observed RUNNING beyond seven hours",
+    "Both remote control files CONTINUE"
+  ],
+  "executed": [
+    "Live Kaggle status checks",
+    "Control branch reads",
+    "Kaggle output probe",
+    "Shared observer ledger publication"
+  ],
+  "observed": {
+    "observed_at_utc": "2026-10-07T21:57:51Z",
+    "vita_status": "RUNNING",
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 25402.9,
+    "vcc_elapsed_seconds": 25385.943,
+    "continuous_liveness": "UNKNOWN",
+    "github_roundtrip_component": "UNKNOWN_PARTIAL",
+    "github_write_state": "INACCESSIBLE",
+    "kaggle_hourly_control_read": "NOT_EXPOSED",
+    "hour_8_survival": "NOT_TESTED"
+  },
+  "decisions": [
+    "Preserve predecessor",
+    "Do not append project MMR",
+    "Do not sign",
+    "No Vita biological claims",
+    "No VCC scientific execution"
+  ],
+  "proposed": [
+    "Next hourly observation"
+  ],
+  "not_tested": [
+    "Hour 8",
+    "Continuous liveness",
+    "In-kernel hourly control read"
+  ],
+  "failures": [],
+  "unresolved": [
+    "In-kernel control-read evidence unavailable",
+    "Observer-route/interaction MMR successor NOT_COMPUTED"
+  ],
+  "next_action": "NEXT_GOVERNED_HOURLY_OBSERVATION",
+  "project_canonical_mmr_append": false,
+  "signature_state": "NOT_SIGNED"
+}
