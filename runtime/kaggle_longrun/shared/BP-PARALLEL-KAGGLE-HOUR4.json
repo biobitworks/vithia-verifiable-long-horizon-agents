@@ -1,0 +1,48 @@
+{
+  "decisions": [
+    "do not infer Kaggle hourly control read from remote control state",
+    "preserve Kaggle GitHub write state INACCESSIBLE",
+    "do not append project MMR",
+    "do not sign",
+    "do not promote future milestones"
+  ],
+  "executed": [
+    "fresh Kaggle status query from magicPRObox",
+    "remote control branch inspection",
+    "fixed-start elapsed-time computation",
+    "shared observer successor publication"
+  ],
+  "failures": [],
+  "id": "BP-PARALLEL-KAGGLE-HOUR4",
+  "next_action": "NEXT_GOVERNED_HOURLY_OBSERVATION",
+  "not_tested": [
+    "Hour 5 and later survival",
+    "continuous liveness between discrete observations",
+    "Kaggle internal hourly control read"
+  ],
+  "observed": {
+    "continuous_liveness": "UNKNOWN",
+    "github_roundtrip_component": "UNKNOWN_PARTIAL",
+    "github_write_state": "INACCESSIBLE",
+    "observed_at_utc": "2026-10-07T18:56:22Z",
+    "vcc_elapsed_seconds": 14496.943,
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 14513.9,
+    "vita_status": "RUNNING"
+  },
+  "parent": "BP-PARALLEL-KAGGLE-HOUR3",
+  "project_canonical_mmr_append": false,
+  "proposed": [
+    "next governed hourly observation"
+  ],
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "signature_state": "NOT_SIGNED",
+  "unresolved": [
+    "live Kaggle output does not expose kernel hourly control read",
+    "authorized Kaggle GitHub write credential not independently established"
+  ],
+  "verified_new": [
+    "both Kaggle workers discretely observed RUNNING after their individual four-hour boundaries",
+    "both remote control branches observed unchanged with action CONTINUE"
+  ]
+}
