@@ -64,3 +64,5 @@ The exact active context is committed as bytes rather than represented only by a
 Merkle inclusion establishes integrity/inclusion, not causality or truth. Hashes establish identity, not correctness. Anticube and Hydra/ΔG* are simulation metadata in this MVP; biological validation is NOT_TESTED.
 
 See PUBLICATION_STATUS.json, docs/BREAKPOINT_PROTOCOL.md, and the individual sponsor receipts for bounded claims.
+
+**License:** Unless otherwise explicitly licensed, original Biobitworks material in this repository is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/); third-party components remain under their respective licenses.
