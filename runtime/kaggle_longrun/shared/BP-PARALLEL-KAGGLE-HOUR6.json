@@ -1,0 +1,55 @@
+{
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "id": "BP-PARALLEL-KAGGLE-HOUR6",
+  "parent": "BP-PARALLEL-KAGGLE-HOUR5",
+  "verified_new": [
+    "Both Kaggle workers directly observed RUNNING after individual six-hour boundaries",
+    "Both remote control files observed CONTINUE"
+  ],
+  "executed": [
+    "Kaggle live status via magicPRObox",
+    "read-only control branch inspection",
+    "read-only Kaggle output probes",
+    "fixed-start elapsed computation",
+    "shared observer successor publication"
+  ],
+  "observed": {
+    "observed_at_utc": "2026-10-07T20:56:05Z",
+    "status_query_window_utc": "2026-10-07T20:56:04Z/2026-10-07T20:56:05Z",
+    "vita_status": "RUNNING",
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 21696.9,
+    "vcc_elapsed_seconds": 21679.943,
+    "continuous_liveness": "UNKNOWN",
+    "github_roundtrip_component": "UNKNOWN_PARTIAL",
+    "github_write_state": "INACCESSIBLE",
+    "kaggle_hourly_control_read": "NOT_EXPOSED"
+  },
+  "decisions": [
+    "Preserve predecessor unchanged",
+    "Remote CONTINUE does not prove in-kernel control read",
+    "No authorized Kaggle write credential independently established",
+    "No project canonical MMR append",
+    "No signature",
+    "No Vita biological claims",
+    "No VCC scientific training or submission"
+  ],
+  "proposed": [
+    "Next governed hourly observation"
+  ],
+  "not_tested": [
+    "Hour 7",
+    "Hour 8",
+    "continuous liveness",
+    "in-kernel hourly control read"
+  ],
+  "failures": [],
+  "unresolved": [
+    "Kaggle in-kernel hourly control-read evidence not exposed",
+    "Kaggle GitHub write capability not established",
+    "observer-route/interaction MMR successor NOT_COMPUTED"
+  ],
+  "next_action": "NEXT_GOVERNED_HOURLY_OBSERVATION",
+  "project_canonical_mmr_append": false,
+  "signature_state": "NOT_SIGNED"
+}
