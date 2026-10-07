@@ -1,0 +1,17 @@
+{
+  "schema": "vita_infinite.control_command_fco.v1",
+  "fco_type": "ControlCommandFCO",
+  "transport_only_not_canonical_state": true,
+  "project_id": "vita-infinite",
+  "run_id": "VITA-RESUMABLE-KAGGLE-20261006-006",
+  "control_revision": 1,
+  "lease_seq": 1,
+  "lease_duration_s": 20,
+  "action_seq": 0,
+  "action": "NONE",
+  "reason": "successor canary initial external lease after run005 transport-thread repair",
+  "actor_id": "VITA_INFINITE_PRIMARY_EXECUTOR",
+  "requested_scope": "kaggle:control",
+  "policy_identity": "VITA_DAISY_MULTI_HOUR_CONTROL_V1",
+  "autonomous_long_run_authorized": false
+}
