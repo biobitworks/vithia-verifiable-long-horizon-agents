@@ -1,0 +1,45 @@
+{
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "id": "BP-PARALLEL-KAGGLE-HOUR5",
+  "parent": "BP-PARALLEL-KAGGLE-HOUR4",
+  "verified_new": [
+    "Both workers observed RUNNING after 5h",
+    "Both remote controls CONTINUE"
+  ],
+  "executed": [
+    "Kaggle status queries",
+    "control branch inspection",
+    "elapsed calculation",
+    "observer ledger publication"
+  ],
+  "observed": {
+    "observed_at_utc": "2026-10-07T20:00:39Z",
+    "vita_status": "RUNNING",
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 18370.9,
+    "vcc_elapsed_seconds": 18353.943,
+    "continuous_liveness": "UNKNOWN",
+    "github_roundtrip_component": "UNKNOWN_PARTIAL",
+    "github_write_state": "INACCESSIBLE"
+  },
+  "decisions": [
+    "preserve predecessor",
+    "project MMR unchanged",
+    "no signature"
+  ],
+  "proposed": [
+    "next governed hourly observation"
+  ],
+  "not_tested": [
+    "hour 6+",
+    "continuous liveness",
+    "in-kernel control read"
+  ],
+  "failures": [],
+  "unresolved": [
+    "Kaggle internal hourly control read unavailable"
+  ],
+  "next_action": "NEXT_GOVERNED_HOURLY_OBSERVATION",
+  "project_canonical_mmr_append": false,
+  "signature_state": "NOT_SIGNED"
+}
