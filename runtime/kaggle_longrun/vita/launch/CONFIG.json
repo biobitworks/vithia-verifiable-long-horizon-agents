@@ -1,0 +1,31 @@
+{
+  "checkpoint_interval_seconds": 300,
+  "claim_ceiling": "INFRASTRUCTURE_RUNTIME_CHECKPOINT_CLAIMS_ONLY;NO_BIOLOGICAL_ANTICUBE_CLAIM",
+  "github_check_interval_seconds": 3600,
+  "github_control_branch": "runtime/kaggle-vita-longrun-liveness-20261007",
+  "github_control_path": "runtime/kaggle_longrun/vita/CONTROL.json",
+  "github_repo": "biobitworks/vithia-verifiable-long-horizon-agents",
+  "kernel_slug": "biobitworks/vita-daisy-longrun-liveness-20261007",
+  "kernel_title": "Vita Daisy Longrun Liveness 20261007",
+  "lane": "VITA_DAISY_LONGRUN_LIVENESS",
+  "predecessor_state": "VITA-DAISY-MULTIHOUR-EXP168-20261006-001::COMPLETE_AFTER_OLD_LEASE/SEGMENT_PROTOCOL",
+  "project_id": "FCO-FCG-KAGGLE-LIVENESS-20261007",
+  "run_id": "VITA-KAGGLE-LIVENESS-20261007-001",
+  "scientific_state": "INFRASTRUCTURE_LIVENESS_TEST_ONLY;E1=ABSTAIN_NO_VALID_TARGET;E1_READY_FOR_TRAINING=NO",
+  "seed": 20261007,
+  "source_descriptor": {
+    "biological_source_bytes": false,
+    "kind": "SYNTHETIC_REFERENCE",
+    "purpose": "EXP168-shaped runtime/liveness surrogate only",
+    "shape": {
+      "batch": 256,
+      "numeric_features": 8,
+      "sequence_length": 60,
+      "vocab": 22
+    }
+  },
+  "source_input_root": "3a0fa453b99894aa955e7cb22dd1d72dbae5bed66cb6034ec66487b3c5712ec9",
+  "step_sleep_seconds": 0.05,
+  "target_wall_time_seconds": 28800,
+  "workload_kind": "VITA_SYNTHETIC_EXP168_SHAPED"
+}
