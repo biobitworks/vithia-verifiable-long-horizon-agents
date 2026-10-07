@@ -1,0 +1,16 @@
+{
+  "schema": "kaggle_longrun_control.v1",
+  "transport_only_not_canonical_state": true,
+  "project_id": "FCO-FCG",
+  "lane": "VITA_DAISY_LONGRUN_LIVENESS",
+  "run_id": "VITA-KAGGLE-LIVENESS-20261007-001",
+  "control_revision": 0,
+  "action_seq": 0,
+  "action": "CONTINUE",
+  "issued_at_utc": "2026-10-07T14:45:00Z",
+  "short_lease_required": false,
+  "github_silence_semantics": "CONTINUE",
+  "github_unreachable_semantics": "CONTINUE",
+  "project_mmr_append": false,
+  "signature_state": "NOT_SIGNED"
+}
