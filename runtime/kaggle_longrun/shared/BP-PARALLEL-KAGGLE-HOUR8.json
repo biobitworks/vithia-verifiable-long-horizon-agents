@@ -1,0 +1,57 @@
+{
+  "schema": "ConversationFCO.TurnBreakpoint.v1",
+  "id": "BP-PARALLEL-KAGGLE-HOUR8",
+  "parent": "BP-PARALLEL-KAGGLE-HOUR7",
+  "verified_new": [
+    "Both Kaggle workers observed RUNNING beyond 8h",
+    "Both subsequently observed COMPLETE",
+    "Remote controls CONTINUE"
+  ],
+  "executed": [
+    "Kaggle status queries",
+    "Control branch reads",
+    "Output file listing",
+    "Shared ledger append"
+  ],
+  "observed": {
+    "at_utc": "2026-10-07T22:54:59Z",
+    "vita_status": "RUNNING",
+    "vcc_status": "RUNNING",
+    "vita_elapsed_seconds": 28830.9,
+    "vcc_elapsed_seconds": 28813.943,
+    "later_at_utc": "2026-10-07T22:55:31Z",
+    "vita_later_status": "COMPLETE",
+    "vcc_later_status": "COMPLETE",
+    "continuous_liveness": "UNKNOWN",
+    "github_roundtrip_component": "UNKNOWN_PARTIAL",
+    "github_write_state": "INACCESSIBLE",
+    "kaggle_hourly_control_read": "UNKNOWN_CONTENT_NOT_INSPECTED",
+    "terminal_artifact_content_verification": "NOT_TESTED"
+  },
+  "decisions": [
+    "Preserve predecessor",
+    "No project MMR append",
+    "No signature",
+    "No Vita biological claims",
+    "No VCC scientific training or submission"
+  ],
+  "proposed": [
+    "Read terminal artifacts when storage is available"
+  ],
+  "not_tested": [
+    "Continuous liveness",
+    "Internal hourly control read",
+    "Terminal receipt integrity",
+    "Future milestones"
+  ],
+  "failures": [
+    "Vita output download FAILED_NO_SPACE_LEFT_ON_DEVICE"
+  ],
+  "unresolved": [
+    "Observer MMR successor NOT_COMPUTED",
+    "GitHub roundtrip UNKNOWN_PARTIAL"
+  ],
+  "next_action": "READ_ONLY_TERMINAL_ARTIFACT_VERIFICATION",
+  "project_canonical_mmr_append": false,
+  "signature_state": "NOT_SIGNED"
+}
